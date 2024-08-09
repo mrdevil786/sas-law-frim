@@ -56,7 +56,7 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li class="@yield('website-active-home')"><a href="{{ url('/') }}">Home</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="caseStudies.html">Case Studies</a></li>
