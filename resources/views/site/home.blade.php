@@ -88,7 +88,7 @@
                             </div>
                         </div>
                         <div class="practice-caption">
-                            <h4><a href="#">Vehicle Accident</a></h4>
+                            <h4><a href="#">Criminal Cases</a></h4>
                             <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
                                 et dolore.</p>
                         </div>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="practice-caption">
-                            <h4><a href="#">Health Law</a></h4>
+                            <h4><a href="#">CBI/ED Cases</a></h4>
                             <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
                                 et dolore.</p>
                         </div>
