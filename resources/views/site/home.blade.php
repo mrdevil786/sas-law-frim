@@ -17,15 +17,15 @@
                             <div class="hero__caption">
                                 <p data-animation="fadeInUp" data-delay=".6s">Professional lawyers</p>
                                 <h1 data-animation="fadeInUp" data-delay=".4s">We will fight<br>
-                                    for you like a friend </h1>
+                                    for your legal rights </h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".6s">
-                        <p>Schedule a Free Consultation 24/7</p>
-                        <span>01654.066.456</span>
+                        <p>Schedule your Consultation 24/7</p>
+                        <a href="tel:+918470884598"><span>+91-8470884598</span></a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video ani-btn" href="https://www.youtube.com/watch?v=yXaegVWBrK0">
@@ -50,8 +50,8 @@
                 </div>
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".4s">
-                        <p>Schedule a Free Consultation 24/7</p>
-                        <span>01654.066.456</span>
+                        <p>Schedule your Consultation 24/7</p>
+                        <a href="tel:+918470884598"><span>+91-8470884598</span></a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video" href="https://www.youtube.com/watch?v=1aP-TXUpNoU">
