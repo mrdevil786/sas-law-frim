@@ -28,7 +28,7 @@
                         <span>01654.066.456</span>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
-                        <a class="popup-video ani-btn" href="https://www.youtube.com/watch?v=1aP-TXUpNoU">
+                        <a class="popup-video ani-btn" href="https://www.youtube.com/watch?v=yXaegVWBrK0">
                             <img src="{{ asset('frontend/assets/img/icon/video_btn.png') }}" alt="">
                         </a>
                     </div>
