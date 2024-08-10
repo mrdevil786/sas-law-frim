@@ -7,8 +7,8 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                     <div class="single-footer-caption mb-50">
                         <!-- logo -->
-                        <div class="footer-logo">
-                            <a href="index.html"><img src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt=""></a>
+                        <div class="footer-logo text-center">
+                            <a href="{{ route('site.dashboard') }}"><img src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""></a>
                         </div>
                         <div class="single-footer-caption mb-30">
                             <div class="footer-tittle">

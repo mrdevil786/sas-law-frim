@@ -48,7 +48,7 @@
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-1 col-md-1">
                         <div class="logo">
-                            <a href="index.html"><img src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt=""></a>
+                            <a href="{{ route('site.dashboard') }}"><img src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-8 col-md-6">
@@ -56,7 +56,7 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li class="@yield('website-active-home')"><a href="{{ url('/') }}">Home</a></li>
+                                    <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="caseStudies.html">Case Studies</a></li>

@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\BasicController;
 
-Route::get('/', function () {
-    return view('site.home');
-});
+Route::get('/',[BasicController::class,'dashboard'])->name('site.dashboard');
 
 Route::get('/about', function () {
     return 'This is about page.';
