@@ -91,6 +91,7 @@
                             <h4><a href="#">Criminal Cases</a></h4>
                             <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
                                 et dolore.</p>
+                            <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -108,6 +109,7 @@
                             <h4><a href="#">CBI/ED Cases</a></h4>
                             <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
                                 et dolore.</p>
+                            <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -122,9 +124,10 @@
                             </div>
                         </div>
                         <div class="practice-caption">
-                            <h4><a href="#">Insurance Law</a></h4>
+                            <h4><a href="#">NDPS Act Cases</a></h4>
                             <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
                                 et dolore.</p>
+                            <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
                 </div>
