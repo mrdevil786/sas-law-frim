@@ -58,7 +58,7 @@
                                 <ul id="navigation">
                                     <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a></li>
                                     <li class="@yield('website-active-services')"><a href="{{ route('site.services') }}">Services</a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About</a></li>
                                     <li><a href="caseStudies.html">Case Studies</a></li>
                                     <li><a href="blog.html">Blog</a>
                                         <ul class="submenu">

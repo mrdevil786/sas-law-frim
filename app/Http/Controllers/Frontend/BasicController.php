@@ -14,4 +14,8 @@ class BasicController extends Controller
     public function services(){
         return view('site.services');
     }
+
+    public function about(){
+        return view('site.about');
+    }
 }
