@@ -7,19 +7,23 @@ use Illuminate\Http\Request;
 
 class BasicController extends Controller
 {
-    public function dashboard(){
+    public function dashboard()
+    {
         return view('site.home');
     }
 
-    public function services(){
+    public function services()
+    {
         return view('site.services');
     }
 
-    public function about(){
-        return view('site.about');
+    public function contact()
+    {
+        return view('site.contact');
     }
 
-    public function contact(){
-        return view('site.contact');
+    public function about()
+    {
+        return view('site.about');
     }
 }
