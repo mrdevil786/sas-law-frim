@@ -10,4 +10,8 @@ class BasicController extends Controller
     public function dashboard(){
         return view('site.home');
     }
+
+    public function services(){
+        return view('site.services');
+    }
 }
