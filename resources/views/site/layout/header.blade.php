@@ -59,20 +59,21 @@
                                     <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a></li>
                                     <li class="@yield('website-active-services')"><a href="{{ route('site.services') }}">Services</a></li>
                                     <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About</a></li>
-                                    <li><a href="caseStudies.html">Case Studies</a></li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li><a href="/">Case Studies</a></li>
+                                    <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact</a></li>
+                                    {{-- <li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
                                             <li><a href="single-blog.html">Blog Details</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="#">Pages</a>
+                                    </li> --}}
+                                    {{-- <li><a href="#">Pages</a>
                                         <ul class="submenu">
                                             <li><a href="contact.html">Contact</a></li>
                                             <li><a href="elements.html">Element</a></li>
                                             <li><a href="case_details.html">Case Details</a></li>
                                         </ul>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </nav>
                         </div>
