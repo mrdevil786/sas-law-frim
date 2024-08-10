@@ -82,15 +82,15 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
 
-                            <!-- "practice-icon-->
+                            <!-- practice-icon -->
                             <div class="practice-icon">
                                 <i class="flaticon-care"></i>
                             </div>
                         </div>
                         <div class="practice-caption">
                             <h4><a href="#">Criminal Cases</a></h4>
-                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
-                                et dolore.</p>
+                            <p>Defense for charges like theft, assault, and fraud. We protect your rights with a strong
+                                legal strategy.</p>
                             <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
@@ -100,15 +100,15 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
 
-                            <!-- "practice-icon-->
+                            <!-- practice-icon -->
                             <div class="practice-icon">
                                 <i class="flaticon-care"></i>
                             </div>
                         </div>
                         <div class="practice-caption">
                             <h4><a href="#">CBI/ED Cases</a></h4>
-                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
-                                et dolore.</p>
+                            <p>Expert legal representation for CBI and ED cases. We handle complex investigations and
+                                prosecutions.</p>
                             <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
@@ -118,15 +118,15 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
 
-                            <!-- "practice-icon-->
+                            <!-- practice-icon -->
                             <div class="practice-icon">
                                 <i class="flaticon-care"></i>
                             </div>
                         </div>
                         <div class="practice-caption">
                             <h4><a href="#">NDPS Act Cases</a></h4>
-                            <p>Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
-                                et dolore.</p>
+                            <p>Comprehensive defense under the NDPS Act. We handle allegations of drug trafficking and
+                                related offenses.</p>
                             <a href="case_details.html" class="read-more1">Read more</a>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                 <div class="col-xl-5 col-lg-5">
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle-l mb-70">
-                        <h2>About Just Law</h2>
+                        <h2>About Us</h2>
                     </div>
                     <div class="about-caption mb-100">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
