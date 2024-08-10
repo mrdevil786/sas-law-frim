@@ -189,7 +189,7 @@
                         <div class="row ">
                             <div class="col-xl-12">
                                 <div class="section-tittle section-tittle-f text-center mb-70">
-                                    <h2>Free Consultation</h2>
+                                    <h2>For Consultation</h2>
                                 </div>
                             </div>
                         </div>

@@ -80,7 +80,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <!-- Header-btn -->
                         <div class="header-btn d-none d-lg-block f-right">
-                            <a href="#" class="btn header-btn">Free Consultation</a>
+                            <a href="#" class="btn header-btn">Get Consultation</a>
                         </div>
                     </div>
                     <!-- Mobile Menu -->
