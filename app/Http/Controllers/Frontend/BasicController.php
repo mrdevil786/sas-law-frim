@@ -16,6 +16,10 @@ class BasicController extends Controller
     {
         return view('site.services');
     }
+    public function paraservices()
+    {
+        return view('site.para-legal');
+    }
 
     public function contact()
     {
@@ -25,5 +29,12 @@ class BasicController extends Controller
     public function about()
     {
         return view('site.about');
+    }
+
+    public function attorney(){
+        return view('site.attorney');
+    }
+    public function blog(){
+        return view('site.blog');
     }
 }

@@ -5,226 +5,151 @@
 @section('website-active-home', 'active')
 
 @section('website-main-section')
-    <!-- slider Area Start-->
-    <div class="slider-area ">
+    <!-- Slider Area Start -->
+    <div class="slider-area">
         <div class="slider-active">
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.jpg') }}">
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
-                                <p data-animation="fadeInUp" data-delay=".6s">Professional lawyers</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">We will fight<br>
-                                    for your legal rights </h1>
+                                <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP:</p>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law Firm in Lucknow</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".6s">
-                        <p>Schedule your Consultation 24/7</p>
+                        <p>Get an Appointment</p>
                         <a href="tel:+918470884598"><span>+91-8470884598</span></a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video ani-btn" href="https://www.youtube.com/watch?v=yXaegVWBrK0">
-                            <img src="{{ asset('frontend/assets/img/icon/video_btn.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon/video_btn.webp') }}" alt="Video Button">
                         </a>
                     </div>
                 </div>
             </div>
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.jpg') }}">
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
-                                <p data-animation="fadeInUp" data-delay=".6s">Professional lawyers</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">We will fight<br>
-                                    for you like a friend </h1>
+                                <p data-animation="fadeInUp" data-delay=".6s">Best Criminal Lawyer in Lucknow</p>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">We Will Fight for You Like a Friend</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".4s">
-                        <p>Schedule your Consultation 24/7</p>
+                        <p>Schedule Your Consultation 24/7</p>
                         <a href="tel:+918470884598"><span>+91-8470884598</span></a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video" href="https://www.youtube.com/watch?v=yXaegVWBrK0">
-                            <img src="{{ asset('frontend/assets/img/icon/video_btn.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon/video_btn.webp') }}" alt="Video Button">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- slider Area End-->
+    <!-- Slider Area End -->
 
-    <!-- Legal Practice Area start -->
-    <div class="legal-practice-area section-padding30">
-        <div class="container">
-            <!--Section Tittle  -->
-            <div class="row ">
-                <div class="col-xl-12">
-                    <div class="section-tittle text-center mb-70">
-                        <h2>Legal Practice Area.</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- single items -->
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single-practice mb-30">
-                        <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
-
-                            <!-- practice-icon -->
-                            <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div>
-                        </div>
-                        <div class="practice-caption">
-                            <h4><a href="#">Criminal Cases</a></h4>
-                            <p>Defense for charges like theft, assault, and fraud. We protect your rights with a strong
-                                legal strategy.</p>
-                            <a href="case_details.html" class="read-more1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single-practice mb-30">
-                        <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
-
-                            <!-- practice-icon -->
-                            <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div>
-                        </div>
-                        <div class="practice-caption">
-                            <h4><a href="#">CBI/ED Cases</a></h4>
-                            <p>Expert legal representation for CBI and ED cases. We handle complex investigations and
-                                prosecutions.</p>
-                            <a href="case_details.html" class="read-more1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single-practice mb-30">
-                        <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
-
-                            <!-- practice-icon -->
-                            <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div>
-                        </div>
-                        <div class="practice-caption">
-                            <h4><a href="#">NDPS Act Cases</a></h4>
-                            <p>Comprehensive defense under the NDPS Act. We handle allegations of drug trafficking and
-                                related offenses.</p>
-                            <a href="case_details.html" class="read-more1">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- Legal Practice Area End-->
-
-    <!-- About Law Start-->
+    <!-- About Law Start -->
     <div class="about-low-area about-bg about-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-5">
-                    <!-- section tittle -->
                     <div class="section-tittle section-tittle-l mb-70">
                         <h2>About Us</h2>
                     </div>
                     <div class="about-caption mb-100">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut.</p>
-                        <!-- Counter Up -->
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading law firm in Lucknow, offering
+                            expert legal consultancy, litigation, and para-legal services. Our skilled high court lawyers
+                            handle diverse areas including foreign direct investments, corporate law, and business setups in
+                            Uttar Pradesh. Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr. Rohit Sharma, we serve
+                            both domestic and international clients, making us a top choice for legal services in Lucknow
+                            and beyond.</p>
                         <div class="count-clients">
                             <div class="single-counter text-center">
-                                <span class="counter">250</span>
-                                <p>Happy Clients</p>
+                                <span class="counter">1500</span>
+                                <p>+ Trusted Clients</p>
                             </div>
                             <div class="single-counter text-center">
-                                <span class="counter">920</span>
-                                <p>Wining Case</p>
+                                <span class="counter">250</span>
+                                <p>+ Case Studies</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7">
-                    <!-- about-img -->
-                    <div class="about-img ">
+                    <div class="about-img">
                         <div class="about-font-img f-left">
-                            <img src="{{ asset('frontend/assets/img/about/about-low-front.jpg') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/about/about-low-front.webp') }}"
+                                alt="About Us Front Image">
                         </div>
                         <div class="about-back-img f-right d-none d-md-block">
-                            <img src="{{ asset('frontend/assets/img/about/about-low-back.jpg') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/about/about-low-back.webp') }}"
+                                alt="About Us Back Image">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About Law End-->
+    <!-- About Law End -->
 
-    <!-- Contact form Start -->
-    <div class="contact-form bg-height pb-160" data-background="{{ asset('frontend/assets/img/about/contact_bg.jpg') }}">
+    <!-- Contact Form Start -->
+    <div class="contact-form bg-height pb-160" data-background="{{ asset('frontend/assets/img/about/contact_bg.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
                     <div class="form-wrapper">
-                        <!--Section Tittle  -->
-                        <div class="row ">
+                        <div class="row">
                             <div class="col-xl-12">
                                 <div class="section-tittle section-tittle-f text-center mb-70">
                                     <h2>For Consultation</h2>
                                 </div>
                             </div>
                         </div>
-                        <!--End Section Tittle  -->
                         <form id="contact-form" action="#" method="POST">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box user-icon mb-30">
-                                        <input type="text" name="name" placeholder="Name">
+                                        <input type="text" name="name" placeholder="Name" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box email-icon mb-30">
-                                        <input type="text" name="email" placeholder="Phone">
+                                        <input type="text" name="phone" placeholder="Phone" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 mb-30">
                                     <div class="select-itms">
-                                        <select name="select" id="select2">
+                                        <select name="practice_area" id="select2">
                                             <option value="">Health Law</option>
                                             <option value="">Arafath Miya</option>
                                             <option value="">Shakil Miya</option>
-                                            <option value="">saiful islam</option>
+                                            <option value="">Saiful Islam</option>
                                             <option value="">Tamim Sharker</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box subject-icon mb-30">
-                                        <input type="Email" name="subject" placeholder="Email">
+                                        <input type="email" name="email" placeholder="Email" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-box message-icon mb-30">
-                                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
                                     </div>
                                     <div class="submit-info">
                                         <button class="submit-btn2" type="submit">Submit Now</button>
@@ -237,343 +162,197 @@
             </div>
         </div>
     </div>
-    <!-- Contact form End -->
+    <!-- Contact Form End -->
 
-    <!-- Recent-case-area Start -->
-    <section class="recent-case-area section-padding30">
+    <!-- Legal Practice Area Start -->
+    <div class="legal-practice-area section-padding30" style="padding-bottom: 20px">
         <div class="container">
-            <!--Section Tittle  -->
-            <div class="row ">
+            <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle text-center mb-70">
-                        <h2>Recent Case Studies</h2>
+                        <h2>Our Practice Areas</h2>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="properties__button">
-                        <!--Nav Button  -->
-                        <nav>
-                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
-                                    role="tab" aria-controls="nav-home" aria-selected="true">Vehicle Accident</a>
-                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
-                                    role="tab" aria-controls="nav-profile" aria-selected="false"> Health Law</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
-                                    role="tab" aria-controls="nav-contact" aria-selected="false">Insurance Law </a>
-                                <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last"
-                                    role="tab" aria-controls="nav-contact" aria-selected="false"> Bankruptcy</a>
-                            </div>
-                        </nav>
-                        <!--End Nav Button  -->
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-practice mb-30">
+                        <div class="practice-img">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_1.webp') }}" alt="Criminal Cases">
+                        </div>
+                        <div class="practice-caption">
+                            <h4><a href="#">Criminal Cases</a></h4>
+                            <p>We represent both companies and individuals in all types of litigation before every court,
+                                including the Supreme Court, High Courts, District Courts, and other tribunals. Our
+                                expertise includes handling appeals, financial fraud, criminal complaints, criminal writs,
+                                and violations of intellectual property and cyber laws. We ensure comprehensive
+                                representation for our clients across a broad spectrum of criminal matters.</p>
+                            <a href="case_details.html" class="read-more1">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-practice mb-30">
+                        <div class="practice-img">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}" alt="Civil Cases">
+                        </div>
+                        <div class="practice-caption">
+                            <h4><a href="#">Civil Cases</a></h4>
+                            <p>Our firm has a robust network of civil advocates nationwide to address diverse client needs.
+                                We handle all kinds of civil litigation, representing companies and individuals at District
+                                Courts, High Courts, and the Supreme Court. Our services cover disputes related to
+                                contracts, agreements, insolvency matters, recovery suits, writ petitions, and special leave
+                                petitions, providing thorough legal support throughout.</p>
+                            <a href="case_details.html" class="read-more1">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-practice mb-30">
+                        <div class="practice-img">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}" alt="Service Matters">
+                        </div>
+                        <div class="practice-caption">
+                            <h4><a href="#">Service Matters</a></h4>
+                            <p>We handle all aspects of Business and Corporate Law in India, from company formation to
+                                winding up. We represent clients before Company Law Boards and High Courts in issues like
+                                winding up, mismanagement, mergers, and acquisitions. Our services also include drafting
+                                agreements, risk analysis, due diligence, corporate restructuring, joint ventures, and legal
+                                audits, ensuring thorough support for corporate clients.</p>
+                            <a href="case_details.html" class="read-more1">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Nav Card -->
-            <div class="tab-content" id="nav-tabContent">
-                <!-- card one -->
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Accidental</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Car Accident Insurance Critical Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Devorce</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Legal Separation & Devorce Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Study</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Boys Case Study Critical Family Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card two -->
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Devorce</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Legal Separation & Devorce Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Accidental</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Car Accident Insurance Critical Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Study</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Boys Case Study Critical Family Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card three -->
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Study</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Boys Case Study Critical Family Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Accidental</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Car Accident Insurance Critical Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Devorce</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Legal Separation & Devorce Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- card foure -->
-                <div class="tab-pane fade" id="nav-last" role="tabpanel" aria-labelledby="nav-last-tab">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_2.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Devorce</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Legal Separation & Devorce Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_1.png') }}" alt="">
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Accidental</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Car Accident Insurance Critical Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-practice mb-30">
-                                <div class="practice-img">
-                                    <img src="{{ asset('frontend/assets/img/legal/legal_3.png') }}" alt="">
-
-                                    <!-- "practice-icon-->
-                                    <div class="practice-icon">
-                                        <span>Study</span>
-                                    </div>
-                                </div>
-                                <div class="practice-caption2">
-                                    <h4>Boys Case Study Critical Family Case</h4>
-                                    <p>Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut
-                                        labore.</p>
-                                    <a href="case_details.html" class="read-more1">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- End Nav Card -->
         </div>
-    </section>
-    <!-- Recent-case-area End -->
+    </div>
+    <!-- Legal Practice Area End -->
+
+    <!-- Why Choose Us Start -->
+    <div class="about-low-area about-bg about-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-tittle section-tittle-l mb-70">
+                        <h2>Why Choose Us</h2>
+                    </div>
+                    <div class="why-choose mb-100">
+                        <h2>1. Expert Legal Team Across All Fields</h2>
+                        <p>At saslawchambers, we provide top lawyers in Lucknow, each specializing in their respective
+                            fields, including civil, criminal, and property law. Every advocate in our law chambers has
+                            years of experience, ensuring strong legal representation and higher success rates.</p>
+                        <h2>2. Commitment to Excellence</h2>
+                        <p>Our high court lawyers in Lucknow are committed to excellence, providing 100% effort in every
+                            case, whether in family courts or arbitration tribunals. We focus on building trust and
+                            long-term relationships with our clients.</p>
+                        <h2>3. High Success Rate</h2>
+                        <p>Known for being some of the best lawyers in Lucknow High Court, we deliver the best possible
+                            results for our clients. Our exceptional success rate sets us apart from other law firms in
+                            Lucknow.</p>
+                        <h2>4. Efficient Case Resolution</h2>
+                        <p>Specializing in super-fast case resolution, our top civil lawyers in Lucknow and DRT lawyers in
+                            Lucknow focus on achieving quick outcomes without compromising quality.</p>
+                        <h2>5. Personalized Legal Solutions</h2>
+                        <p>We provide personalized strategies for each client, whether you need the best criminal lawyers in
+                            Uttar Pradesh, or representation for property disputes and debt recovery in Lucknow.</p>
+                        <h2>6. Nationwide Representation</h2>
+                        <p>With top lawyers across Uttar Pradesh, including AFT lawyers in Lucknow, we ensure consistent,
+                            high-quality legal representation no matter where you need us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Us End -->
 
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding"
-        data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.png') }}">
+        data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
         <div class="container">
-            <!--Section Tittle  -->
-            <div class="row ">
+            <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Words From Clients</h2>
+                        <h2>Meet Our Clients</h2>
                     </div>
                 </div>
             </div>
-            <!-- Testimonial contents -->
             <div class="row d-flex justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-md-10">
                     <div class="h1-testimonial-active dot-style">
                         <!-- Single Testimonial -->
                         <div class="single-testimonial text-center">
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-caption ">
-                                <div class="testimonial-top-cap">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder  ">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
                                     <div class="founder-img">
-                                        <img src="{{ asset('frontend/assets/img/testmonial/Homepage_testi_1.png') }}"
-                                            alt="">
-                                        <span>Devid jonathan</span>
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-1.webp') }}"
+                                            alt="Vedanta Group of Hospitals" style="width:200px;">
+                                        <span>Vedanta Group of Hospitals</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Single Testimonial -->
                         <div class="single-testimonial text-center">
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-caption ">
-                                <div class="testimonial-top-cap">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder  ">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
                                     <div class="founder-img">
-                                        <img src="{{ asset('frontend/assets/img/testmonial/Homepage_testi_1.png') }}"
-                                            alt="">
-                                        <span>Devid jonathan</span>
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-2.webp') }}"
+                                            alt="Balaji Group of Education" style="width:200px;">
+                                        <span>Balaji Group of Education</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Single Testimonial -->
                         <div class="single-testimonial text-center">
-                            <!-- Testimonial Content -->
-                            <div class="testimonial-caption ">
-                                <div class="testimonial-top-cap">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip</p>
-                                </div>
-                                <!-- founder -->
-                                <div class="testimonial-founder  ">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
                                     <div class="founder-img">
-                                        <img src="{{ asset('frontend/assets/img/testmonial/Homepage_testi_1.png') }}"
-                                            alt="">
-                                        <span>Devid jonathan</span>
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-3.webp') }}"
+                                            alt="Dhanlabh Properties" style="width:200px;">
+                                        <span>Dhanlabh Properties</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
+                                    <div class="founder-img">
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-4.webp') }}"
+                                            alt="Dollar Heights" style="width:200px;">
+                                        <span>Dollar Heights</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
+                                    <div class="founder-img">
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-5.webp') }}"
+                                            alt="Gold Properties" style="width:200px;">
+                                        <span>Gold Properties</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
+                                    <div class="founder-img">
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-6.webp') }}"
+                                            alt="Manvadhikar Media" style="width:200px;">
+                                        <span>Manvadhikar Media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption">
+                                <div class="testimonial-founder">
+                                    <div class="founder-img">
+                                        <img src="{{ asset('frontend/assets/img/testmonial/client-7.webp') }}"
+                                            alt="Manvadhikar Media Foundation" style="width:200px;">
+                                        <span>Manvadhikar Media Foundation</span>
                                     </div>
                                 </div>
                             </div>
@@ -585,14 +364,13 @@
     </div>
     <!-- Testimonial End -->
 
-
     <!-- Team Mates Start -->
-    <div class="teams-area section-padding30">
+    <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
-            <div class="row ">
+            <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-f text-center mb-70">
-                        <h2>Team Mates</h2>
+                        <h2>Meet Our Attorneys</h2>
                     </div>
                 </div>
             </div>
@@ -600,40 +378,68 @@
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-teams text-center">
                         <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_1.jpg') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}" alt="Mr. Mukul Sharma">
                         </div>
                         <div class="team-caption">
-                            <h4><a href="#">Jhon Smith</a></h4>
-                            <span>Senior Lawyer</span>
+                            <h4><a href="#">Mr. Mukul Sharma</a></h4>
+                            <span>Designated Partner</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-teams text-center">
                         <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_2.jpg') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}" alt="Mr. Mohit Sharma">
                         </div>
                         <div class="team-caption">
-                            <h4><a href="#">Emma Bunton</a></h4>
-                            <span>Professional Lawyer</span>
+                            <h4><a href="#">Mr. Mohit Sharma</a></h4>
+                            <span>Criminal Defence Lawyer</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="single-teams text-center">
                         <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_3.jpg') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}" alt="R K Srivastava">
                         </div>
                         <div class="team-caption">
-                            <h4><a href="#">Bunton Jonathon</a></h4>
-                            <span>Top Rated Lawyer</span>
+                            <h4><a href="#">R K Srivastava</a></h4>
+                            <span>Senior Partner</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team Mates End-->
+    <!-- Team Mates End -->
+
+    <!-- Start Align Area -->
+    <div class="whole-wrap">
+        <div class="container box_1170">
+            <div class="section-top-border">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-tittle section-tittle-f text-center mb-70">
+                            <h2>Image Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gallery-item">
+                    @foreach (['pg1', 'pg2', 'pg3', 'pg4', 'pg5', 'pg6', 'pg7', 'pg8', 'pg10', 'pg11', 'pg12', 'pg13', 'pg17', 'pg15', 'pg16'] as $image)
+                        <div
+                            class="col-md-{{ in_array($image, ['pg4', 'pg5', 'pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
+                            <a href="{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}" class="img-pop-up">
+                                <div class="single-gallery-image"
+                                    style="background: url('{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}');">
+                                </div>
+                            </a>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Align Area -->
 
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
@@ -642,12 +448,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Your Answer In Just 5 Minutes</h2>
-                        <p>Checking your loan options does not affect your credit score!s</p>
+                        <p>Checking your loan options does not affect your credit score!</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="#" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
+                        <a href="#" class="btn btn-ans">Get Started <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

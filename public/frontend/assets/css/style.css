@@ -3007,7 +3007,8 @@ hr {
     animation-iteration-count: infinite;
     -webkit-animation-name: MOVE-BG;
     animation-name: MOVE-BG;
-    left: 150px;
+    left: 118px;
+    border-radius: 2px;
     right: 0;
     bottom: 0
 }
@@ -3329,6 +3330,12 @@ hr {
     line-height: 1.6;
     margin-bottom: 63px;
     padding-right: 50px
+}
+.about-low-area .why-choose p {
+    font-size: 16px;
+    color: #64676c;
+    line-height: 1.6;
+    margin-bottom: 63px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -6145,7 +6152,7 @@ del {
 .single-gallery-image {
     margin-top: 30px;
     background-repeat: no-repeat !important;
-    background-position: center center !important;
+    background-position: center top !important;
     background-size: cover !important;
     height: 200px
 }

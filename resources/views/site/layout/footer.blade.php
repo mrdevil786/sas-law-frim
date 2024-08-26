@@ -8,22 +8,25 @@
                     <div class="single-footer-caption mb-50">
                         <!-- logo -->
                         <div class="footer-logo text-center">
-                            <a href="{{ route('site.dashboard') }}"><img src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""></a>
+                            <a href="{{ route('site.dashboard') }}"><img
+                                    src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""></a>
                         </div>
                         <div class="single-footer-caption mb-30">
                             <div class="footer-tittle">
                                 <div class="footer-pera">
-                                    <p>Seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur
-                                        pisicin elit, sed do eiusmod tempor.</p>
+                                    <p>Sharma & Associates (saslawchambers) delivers reliable, expert legal services
+                                        across criminal, civil, corporate, and family law. As one of the best law firms
+                                        in Lucknow, we offer effective legal solutions tailored to your needs..</p>
                                 </div>
                             </div>
                         </div>
                         <!-- footer social -->
                         <div class="footer-social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094712413339&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/saslawchambers?t=DQTZCDfEIobSDcfsSTaDpg&s=09"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/sharma-associates-llp/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/saslawchambers"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@saslawchambers"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,7 @@
                             <ul>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html"> About Us</a></li>
-                                <li><a href="#">Browse Pets</a></li>
+                                <li><a href="about.html"> Services</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
@@ -46,11 +49,8 @@
                         <div class="footer-tittle">
                             <h4>Services</h4>
                             <ul>
-                                <li><a href="#">O’Connor Group</a></li>
-                                <li><a href="#">Our Business Model</a></li>
-                                <li><a href="#">Our Lawyers Team</a></li>
-                                <li><a href="#"> Most Recent Cases</a></li>
-                                <li><a href="#"> Hot Lawyers News</a></li>
+                                <li><a href="#">Legal Services</a></li>
+                                <li><a href="#">Paralegal Services</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +96,8 @@
                     <div class="col-xl-12">
                         <div class="footer-copy-right text-center">
                             <p>
-                                Copyright &copy; {{ date('Y') }} <a href="#">{{ env('APP_NAME') }}</a> All rights reserved.
+                                Copyright &copy; {{ date('Y') }} <a href="#">{{ env('APP_NAME') }}</a> All
+                                rights reserved.
                             </p>
                         </div>
                     </div>
