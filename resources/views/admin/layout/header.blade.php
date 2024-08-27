@@ -160,15 +160,15 @@
                 <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
                 <div class="app-sidebar">
                     <div class="side-header">
-                        <a class="header-brand1" href="/">
-                            <img src="{{ asset('assets/images/brand/logo.png') }}"
-                                class="header-brand-img desktop-logo" alt="logo">
-                            <img src="{{ asset('assets/images/brand/logo-1.png') }}"
+                        <a class="header-brand1" href="/admin">
+                            <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
+                                class="header-brand-img desktop-logo" alt="logo" >
+                            <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
                                 class="header-brand-img toggle-logo" alt="logo">
-                            <img src="{{ asset('assets/images/brand/logo-2.png') }}"
-                                class="header-brand-img light-logo" alt="logo">
-                            <img src="{{ asset('assets/images/brand/logo-3.png') }}"
-                                class="header-brand-img light-logo1" alt="logo">
+                            <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
+                                class="header-brand-img light-logo" alt="logo" style="filter: invert(1);">
+                            <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
+                                class="header-brand-img light-logo1" alt="logo" style="filter: invert(1);">
                         </a>
                         <!-- LOGO -->
                     </div>

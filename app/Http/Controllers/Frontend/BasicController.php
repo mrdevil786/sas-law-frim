@@ -34,7 +34,4 @@ class BasicController extends Controller
     public function attorney(){
         return view('site.attorney');
     }
-    public function blog(){
-        return view('site.blog');
-    }
 }

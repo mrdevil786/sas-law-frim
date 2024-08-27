@@ -54,8 +54,8 @@
                 <!-- CONTAINER OPEN -->
                 <div class="col col-login mx-auto mt-7">
                     <div class="text-center">
-                        <a href="{{ url('/') }}"><img src="{{ asset('assets/images/brand/logo-white.png') }}"
-                                class="header-brand-img" alt=""></a>
+                        <a href="{{ url('/') }}"><img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
+                                class="header-brand-img" alt="" style="filter: invert(1);"></a>
                     </div>
                 </div>
 

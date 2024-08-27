@@ -3,7 +3,7 @@
 [Master Stylesheet]
 
 Project        :   sash – Bootstrap 5  Admin & Dashboard Template
-Copyright      :   Spruko Technologies Private Limited 
+Copyright      :   Spruko Technologies Private Limited
 Author         :   Spruko
 Author URL     :   https://themeforest.net/user/spruko
 Support	       :   support@spruko.com
@@ -17448,7 +17448,7 @@ table.table-bordered.dataTable thead tr:first-child td {
 .login100-form-btn {
     line-height: 1.5;
     color: #fff;
-    width: 100%;
+    width: 30%;
     height: 40px;
     display: -webkit-box;
     display: -webkit-flex;

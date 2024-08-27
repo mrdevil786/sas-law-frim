@@ -5,6 +5,7 @@
 @section('website-active-home', 'active')
 
 @section('website-main-section')
+
     <!-- Slider Area Start -->
     <div class="slider-area">
         <div class="slider-active">
@@ -16,7 +17,7 @@
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
                                 <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP:</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law Firm in Lucknow</h1>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Criminal Law Firm in Lucknow</h1>
                             </div>
                         </div>
                     </div>
@@ -40,8 +41,9 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
-                                <p data-animation="fadeInUp" data-delay=".6s">Best Criminal Lawyer in Lucknow</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">We Will Fight for You Like a Friend</h1>
+                                <p data-animation="fadeInUp" data-delay=".6s">Why Choose Us as Your Top Criminal Law Firm
+                                </p>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Experienced Criminal Lawyers in Lucknow</h1>
                             </div>
                         </div>
                     </div>

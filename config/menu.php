@@ -11,6 +11,16 @@ return [
             ],
         ],
     ],
+    'blog' => [
+        'items' => [
+            [
+                'label' => 'Blog',
+                'icon' => 'fe fe-file-text',
+                'route' => 'admin.blogs.index',
+                'active' => 'admin',
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

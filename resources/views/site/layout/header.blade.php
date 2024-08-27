@@ -6,7 +6,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{ env('APP_NAME') }} - @yield('website-page-title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="robots" content="index,follow" />
     <meta name="distribution" content="global" />
     <meta name="rating" content="General" />
@@ -30,17 +29,18 @@
     <!--<meta name="ahrefs-site-verification" content="6a9b773b17018331594302b48e4e9a71e1e3af95776a4890a25cbe86a20b162f">-->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="description"
-        content="Sharma & Sharma Law Chambers LLP is a leading full-service law firm in Lucknow, offering expert legal services in civil litigation, property law, criminal law, and more since 2008. Contact our experienced lawyers in Lucknow for your legal needs." />
+        content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow. With over 15 years of experience, our top-rated criminal lawyers offer expert defense and legal services. Contact us for a consultation today.">
+    {{-- <meta name="keywords" content="saslaw , saslawchambers , lawchambers , lawyers in lucknow , Top Lawyers in Lucknow , Best Lawyers in Lucknow , lawyers in lucknow , high court lawyers in lucknow  , civil lawyers in lucknow , criminal lawyers in lucknow , arbitration lawyers in lucknow , divorce lawyers in lucknow  , property lawyers in lucknow , RERA lawyers in lucknow , drt lawyers in lucknow ,  best lawyers in lucknow high court , aft lawyers in lucknow ,  best lawyers in lucknow , advocates in lucknow , best criminal lawyers in lucknow , family court lawyers in lucknow , top civil lawyers in lucknow , debts recovery lawyers in lucknow , best criminal lawyer in uttar pradesh , best lawyer in uttar pradesh , best advocate in lucknow high court, criminal law firm in lucknow, criminal defense lawyers lucknow, legal consultancy services, practical implementation of law, expert criminal law management" />
+    <meta name="author" content="Adv. Mukul Sharma" /> --}}
     <meta name="keywords"
-        content="saslaw , saslawchambers , lawchambers , lawyers in lucknow , Top Lawyers in Lucknow , Best Lawyers in Lucknow , lawyers in lucknow , high court lawyers in lucknow  , civil lawyers in lucknow , criminal lawyers in lucknow , arbitration lawyers in lucknow , divorce lawyers in lucknow  , property lawyers in lucknow , RERA lawyers in lucknow , drt lawyers in lucknow ,  best lawyers in lucknow high court , aft lawyers in lucknow ,  best lawyers in lucknow , advocates in lucknow , best criminal lawyers in lucknow , family court lawyers in lucknow , top civil lawyers in lucknow , debts recovery lawyers in lucknow , best criminal lawyer in uttar pradesh , best lawyer in uttar pradesh , best advocate in lucknow high court" />
-    <meta name="author" content="Adv. Mukul Sharma" />
+        content="top law firms india, top law companies in india, india law firms, law firms in india, best criminal lawyer in lucknow, law firm in lucknow, law firm lucknow, legal firm in lucknow, legal firms in lucknow, advocates in lucknow, advocate in lucknow, lawyers in lucknow, best criminal advocate in lucknow, best criminal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow " />
     <!--<meta name="google-site-verification" content="KMlCZAZvaSaA2l2Wy_ym7NL0_lDjdY8xahW_koUqU7M" />-->
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Ranking" name="Best Law Firm in Lucknow" />
     <meta content="About Sharma & Sharma Law Chambers"
-        name="Sharma & Sharma Law Chambers LLP is a legal firm established in the form of limited liability partnership working in areas of legal consultancy, practical implication of law and litigation in various field along with para legal services and managed by Mr. Mohit Sharma, Mr. Mukul Sharma & Mr. Rohit Sharma" />
+        name="Sharma & Sharma Law Chambers LLP is a leading legal firm in Lucknow, operating as a limited liability partnership. We specialize in criminal law as well as legal consultancy, practical implementation of law, and litigation services across various fields. Our comprehensive offerings include criminal defense, para-legal services, and more. The firm is expertly managed by Mr. Mohit Sharma, Mr. Mukul Sharma, and Mr. Rohit Sharma, providing top-tier expertise in criminal defense law and other legal areas." />
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.svg') }}">
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.carousel.min.css') }}">
@@ -62,7 +62,8 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('frontend/assets/img/logo/loder.png') }}" alt="">
+                    <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""
+                        style="filter: invert(1);">
                 </div>
             </div>
         </div>
@@ -100,7 +101,7 @@
                                     <li class="@yield('website-active-attorney')"><a href="{{ route('site.attorney') }}">Attorney</a>
                                     <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact</a>
                                     </li>
-                                    <li class="@yield('website-active-blog')"><a href="{{ route('site.blog') }}">Blog</a></li>
+                                    <li class="@yield('website-active-blog')"><a href="{{ route('blog.index') }}">Blog</a></li>
                                     {{-- <li><a href="#">Pages</a>
                                         <ul class="submenu">
                                             <li><a href="contact.html">Contact</a></li>

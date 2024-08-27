@@ -22,9 +22,12 @@
                         </div>
                         <!-- footer social -->
                         <div class="footer-social">
-                            <a href="https://www.facebook.com/profile.php?id=100094712413339&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://x.com/saslawchambers?t=DQTZCDfEIobSDcfsSTaDpg&s=09"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/sharma-associates-llp/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094712413339&mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://x.com/saslawchambers?t=DQTZCDfEIobSDcfsSTaDpg&s=09"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/sharma-associates-llp/"><i
+                                    class="fab fa-linkedin"></i></a>
                             <a href="https://www.instagram.com/saslawchambers"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/@saslawchambers"><i class="fab fa-youtube"></i></a>
                         </div>
@@ -147,7 +150,6 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="{{ asset('frontend/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
-
 </body>
 
 </html>
