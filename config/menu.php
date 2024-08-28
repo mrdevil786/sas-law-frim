@@ -17,7 +17,7 @@ return [
                 'label' => 'Blog',
                 'icon' => 'fe fe-file-text',
                 'route' => 'admin.blogs.index',
-                'active' => 'admin',
+                'active' => 'admin/blogs',
             ],
         ],
     ],

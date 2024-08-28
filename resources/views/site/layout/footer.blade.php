@@ -38,11 +38,11 @@
                         <div class="footer-tittle">
                             <h4>Company</h4>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html"> About Us</a></li>
-                                <li><a href="about.html"> Services</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{ route('site.dashboard') }}">Home</a></li>
+                                <li><a href="{{ route('site.about') }}"> About Us</a></li>
+                                <li><a href="{{ route('site.attorney') }}"> Attorney</a></li>
+                                <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                                <li><a href="{{ route('site.contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,8 +52,8 @@
                         <div class="footer-tittle">
                             <h4>Services</h4>
                             <ul>
-                                <li><a href="#">Legal Services</a></li>
-                                <li><a href="#">Paralegal Services</a></li>
+                                <li><a href="{{ route('site.services') }}">Legal Services</a></li>
+                                <li><a href="{{ route('site.para-legal') }}">Paralegal Services</a></li>
                             </ul>
                         </div>
                     </div>
@@ -150,6 +150,18 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="{{ asset('frontend/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+
+<!-- Script to handle modal display and auto-hide -->
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#autoModal').modal('show');
+        }, 1000);
+        setTimeout(function() {
+            $('#autoModal').modal('hide');
+        }, 5000);
+    });
+</script>
 </body>
 
 </html>

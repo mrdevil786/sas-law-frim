@@ -64,17 +64,17 @@
                                         @endif
                                         <td class="text-center">
                                             <x-buttons.action-pill-button iconClass="fa fa-eye" iconColor="secondary"
-                                                href="{{ route('admin.users.view', $blog->id) }}" />
+                                                href="{{ route('admin.blogs.view', $blog->id) }}" />
 
                                             @if (auth()->user()->user_role != 3)
                                                 <x-buttons.action-pill-button
-                                                    href="{{ route('admin.users.edit', $blog->id) }}"
+                                                    href="{{ route('admin.blogs.edit', $blog->id) }}"
                                                     iconClass="fa fa-pencil" iconColor="warning"
                                                     modalTarget="editUserModal" />
                                             @endif
                                             @if (auth()->user()->user_role == 1)
                                                 <x-buttons.action-pill-button
-                                                    href="{{ route('admin.users.destroy', $blog->id) }}"
+                                                    href="{{ route('admin.blogs.destroy', $blog->id) }}"
                                                     iconClass="fa fa-trash" iconColor="danger" />
                                             @endif
                                         </td>
@@ -92,12 +92,9 @@
     <!--Add Modal - Right Offcanvas-->
     <x-Modal.Right-Offcanvas title="Add New User" action="{{ route('admin.blogs.store') }}" method="POST">
 
-        <x-fields.input-field label="Full Name" name="name" />
-        <x-fields.input-field label="Email" name="email" />
-        <x-fields.input-field label="Password" name="password" type="password" />
-        <x-fields.input-field label="Confirm Password" name="password_confirmation" type="password" />
-        <x-fields.dropdown-field label="User Role" name="role" :options="[1 => 'Administrator', 2 => 'Editor', 3 => 'Viewer']" />
-        <x-fields.input-field label="Avatar" name="avatar" type="file" />
+        <x-fields.input-field label="Image" name="image" type="file" />
+        <x-fields.input-field label="Title" name="title" />
+        <x-fields.input-field label="Description" name="description" />
 
     </x-Modal.Right-Offcanvas>
     <!--/Right Offcanvas-->

@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>PARALEGAL SERVICES</h2>
+                            <h2>Paralegal Services in Lucknow </h2>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_1.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_8.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">
@@ -56,7 +56,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">
@@ -72,7 +72,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_9.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">
@@ -88,7 +88,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_6.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">
@@ -104,7 +104,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_1.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">
@@ -120,7 +120,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}" alt="">
 
                             <!-- "practice-icon-->
                             <div class="practice-icon">

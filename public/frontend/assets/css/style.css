@@ -2872,7 +2872,8 @@ hr {
 }
 
 .legal-practice-area .single-practice .practice-img img {
-    width: 100%
+    width: 100%;
+    height: 250px;
 }
 
 .legal-practice-area .single-practice .practice-img .practice-icon {
@@ -5192,8 +5193,8 @@ hr {
 
 .comments-area {
     background: transparent;
-    border-top: 1px solid #eee;
-    padding: 45px 0;
+    /* border-top: 1px solid #eee;
+    padding: 45px 0; */
     margin-top: 50px
 }
 
@@ -6149,6 +6150,13 @@ del {
     background-color: #e66686
 }
 
+.blog-card-img{
+    height: 300px;
+    object-fit: cover;
+}
+.single-blog-img{
+    max-height: 400px;
+}
 .single-gallery-image {
     margin-top: 30px;
     background-repeat: no-repeat !important;

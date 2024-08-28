@@ -13,3 +13,4 @@ Route::get('/attorney', [BasicController::class, 'attorney'])->name('site.attorn
 
 Route::get('/blog', [BlogsController::class,'index'])->name('blog.index');
 Route::post('/blog', [BlogsController::class,'store'])->name('blog.store');
+Route::get('/blog/{slug}', [BlogsController::class, 'single_blog'])->name('site.single-blog');

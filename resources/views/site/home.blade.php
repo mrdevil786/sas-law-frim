@@ -5,6 +5,28 @@
 @section('website-active-home', 'active')
 
 @section('website-main-section')
+    {{-- Modal-Popup --}}
+    <div class="modal fade" id="autoModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Disclaimer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">The Bar Council of India does not permit advertisement or solicitation by advocates in any form or
+                    manner. By accessing this website, www.saslawchambers.com, you acknowledge and confirm that you are seeking
+                    information relating to Sharma & Sharma Law Chambers LLP of your own accord and that there has been no form of solicitation,
+                    advertisement or inducement by Sharma & Sharma Law Chambers LLP or its members. The content of this website is for
+                    informational purposes only and should not be interpreted as soliciting or advertisement. No
+                    material/information provided on this website should be construed as legal advice. Sharma & Sharma Law Chambers LLP shall
+                    not be liable for consequences of any action taken by relying on the material/information provided on
+                    this website. The contents of this website are the intellectual property of Sharma & Sharma Law Chambers LLP.</div>
+                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Proceed</button></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Slider Area Start -->
     <div class="slider-area">
@@ -16,7 +38,7 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
-                                <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP:</p>
+                                <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP</p>
                                 <h1 data-animation="fadeInUp" data-delay=".4s">Best Criminal Law Firm in Lucknow</h1>
                             </div>
                         </div>
@@ -63,7 +85,6 @@
         </div>
     </div>
     <!-- Slider Area End -->
-
     <!-- About Law Start -->
     <div class="about-low-area about-bg about-padding">
         <div class="container">
@@ -107,7 +128,6 @@
         </div>
     </div>
     <!-- About Law End -->
-
     <!-- Contact Form Start -->
     <div class="contact-form bg-height pb-160" data-background="{{ asset('frontend/assets/img/about/contact_bg.webp') }}">
         <div class="container">
@@ -165,7 +185,6 @@
         </div>
     </div>
     <!-- Contact Form End -->
-
     <!-- Legal Practice Area Start -->
     <div class="legal-practice-area section-padding30" style="padding-bottom: 20px">
         <div class="container">
@@ -229,7 +248,6 @@
         </div>
     </div>
     <!-- Legal Practice Area End -->
-
     <!-- Why Choose Us Start -->
     <div class="about-low-area about-bg about-padding">
         <div class="container">
@@ -239,25 +257,25 @@
                         <h2>Why Choose Us</h2>
                     </div>
                     <div class="why-choose mb-100">
-                        <h2>1. Expert Legal Team Across All Fields</h2>
+                        <h2>1. Top Expert Legal Team in Lucknow for Criminal Defense</h2>
                         <p>At saslawchambers, we provide top lawyers in Lucknow, each specializing in their respective
                             fields, including civil, criminal, and property law. Every advocate in our law chambers has
                             years of experience, ensuring strong legal representation and higher success rates.</p>
-                        <h2>2. Commitment to Excellence</h2>
+                        <h2>2. Expert Legal Team in Lucknow: Committed to Excellence in Criminal Defense</h2>
                         <p>Our high court lawyers in Lucknow are committed to excellence, providing 100% effort in every
                             case, whether in family courts or arbitration tribunals. We focus on building trust and
                             long-term relationships with our clients.</p>
-                        <h2>3. High Success Rate</h2>
+                        <h2>3. High Success Rate Criminal Lawyer in Lucknow</h2>
                         <p>Known for being some of the best lawyers in Lucknow High Court, we deliver the best possible
                             results for our clients. Our exceptional success rate sets us apart from other law firms in
                             Lucknow.</p>
-                        <h2>4. Efficient Case Resolution</h2>
+                        <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
                         <p>Specializing in super-fast case resolution, our top civil lawyers in Lucknow and DRT lawyers in
                             Lucknow focus on achieving quick outcomes without compromising quality.</p>
                         <h2>5. Personalized Legal Solutions</h2>
                         <p>We provide personalized strategies for each client, whether you need the best criminal lawyers in
                             Uttar Pradesh, or representation for property disputes and debt recovery in Lucknow.</p>
-                        <h2>6. Nationwide Representation</h2>
+                        <h2>6. Top Law Firm in India</h2>
                         <p>With top lawyers across Uttar Pradesh, including AFT lawyers in Lucknow, we ensure consistent,
                             high-quality legal representation no matter where you need us.</p>
                     </div>
@@ -266,7 +284,6 @@
         </div>
     </div>
     <!-- Why Choose Us End -->
-
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding"
         data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
@@ -365,7 +382,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
     <!-- Team Mates Start -->
     <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
@@ -414,7 +430,6 @@
         </div>
     </div>
     <!-- Team Mates End -->
-
     <!-- Start Align Area -->
     <div class="whole-wrap">
         <div class="container box_1170">
@@ -442,7 +457,6 @@
         </div>
     </div>
     <!-- End Align Area -->
-
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">
@@ -450,12 +464,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Your Answer In Just 5 Minutes</h2>
-                        <p>Checking your loan options does not affect your credit score!</p>
+                        {{-- <p>Checking your loan options does not affect your credit score!</p> --}}
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="#" class="btn btn-ans">Get Started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get Started <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Helpers\FileUploader;
+use App\Models\Blog;
 use Illuminate\Support\Facades\Hash;
 
 class UsersController extends Controller
@@ -106,14 +107,5 @@ class UsersController extends Controller
         } else {
             return response()->json(['warning' => 'Cannot update status for administrator']);
         }
-    }
-
-    // DELETE A USER
-    public function destroy($id)
-    {
-        $user = User::findOrFail($id);
-        $user->delete();
-
-        return redirect()->route('admin.users.index')->with('success', 'User deleted successfully!');
     }
 }

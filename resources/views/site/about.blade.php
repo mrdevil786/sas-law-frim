@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>ABOUT US</h2>
+                            <h2>About Our Law Firm in Lucknow</h2>
                         </div>
                     </div>
                 </div>
@@ -123,50 +123,42 @@
         </div>
     </div>
     <!-- Contact form End -->
-    <!-- Why Choose Law Start-->
+    <!-- Why Choose Us Start -->
     <div class="about-low-area about-bg about-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
-                    <!-- section tittle -->
                     <div class="section-tittle section-tittle-l mb-70">
                         <h2>Why Choose Us</h2>
                     </div>
                     <div class="why-choose mb-100">
-                        <h2>1. Expert Legal Team Across All Fields</h2>
+                        <h2>1. Top Expert Legal Team in Lucknow for Criminal Defense</h2>
                         <p>At saslawchambers, we provide top lawyers in Lucknow, each specializing in their respective
-                            fields, including civil lawyers in Lucknow, criminal lawyers in Lucknow, and property lawyers in
-                            Lucknow. Every advocate in our law chambers has years of experience, ensuring strong legal
-                            representation and higher success rates.
-                        </p>
-                        <h2>2. Commitment to Excellence</h2>
+                            fields, including civil, criminal, and property law. Every advocate in our law chambers has
+                            years of experience, ensuring strong legal representation and higher success rates.</p>
+                        <h2>2. Expert Legal Team in Lucknow: Committed to Excellence in Criminal Defense</h2>
                         <p>Our high court lawyers in Lucknow are committed to excellence, providing 100% effort in every
                             case, whether in family courts or arbitration tribunals. We focus on building trust and
-                            long-term relationships with our clients.
-                        </p>
-                        <h2>3. High Success Rate</h2>
-                        <p>Known for being some of the best lawyers in Lucknow high court, we deliver the best possible
+                            long-term relationships with our clients.</p>
+                        <h2>3. High Success Rate Criminal Lawyer in Lucknow</h2>
+                        <p>Known for being some of the best lawyers in Lucknow High Court, we deliver the best possible
                             results for our clients. Our exceptional success rate sets us apart from other law firms in
-                            Lucknow.
-                        </p>
-                        <h2>4. Efficient Case Resolution</h2>
-                        <p>Specializing in super-fast case resolution, our top civil lawyers in Lucknow and drt lawyers in
-                            Lucknow focus on achieving quick outcomes without compromising quality.
-                        </p>
+                            Lucknow.</p>
+                        <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
+                        <p>Specializing in super-fast case resolution, our top civil lawyers in Lucknow and DRT lawyers in
+                            Lucknow focus on achieving quick outcomes without compromising quality.</p>
                         <h2>5. Personalized Legal Solutions</h2>
                         <p>We provide personalized strategies for each client, whether you need the best criminal lawyers in
-                            Uttar Pradesh, or representation for property disputes and debts recovery in Lucknow.
-                        </p>
-                        <h2>6. Nationwide Representation</h2>
-                        <p>With top lawyers across Uttar Pradesh, including aft lawyers in Lucknow, we ensure consistent,
-                            high-quality legal representation no matter where you need us.
-                        </p>
+                            Uttar Pradesh, or representation for property disputes and debt recovery in Lucknow.</p>
+                        <h2>6. Top Law Firm in India</h2>
+                        <p>With top lawyers across Uttar Pradesh, including AFT lawyers in Lucknow, we ensure consistent,
+                            high-quality legal representation no matter where you need us.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Why Choose Law End-->
+    <!-- Why Choose Us End -->
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding"
         data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
@@ -336,12 +328,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Your Answer In Just 5 Minutes</h2>
-                        <p>Checking your loan options does not affect your credit score!s</p>
+                        {{-- <p>Checking your loan options does not affect your credit score!s</p> --}}
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="#" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

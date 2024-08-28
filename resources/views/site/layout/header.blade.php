@@ -30,8 +30,8 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="description"
         content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow. With over 15 years of experience, our top-rated criminal lawyers offer expert defense and legal services. Contact us for a consultation today.">
-    {{-- <meta name="keywords" content="saslaw , saslawchambers , lawchambers , lawyers in lucknow , Top Lawyers in Lucknow , Best Lawyers in Lucknow , lawyers in lucknow , high court lawyers in lucknow  , civil lawyers in lucknow , criminal lawyers in lucknow , arbitration lawyers in lucknow , divorce lawyers in lucknow  , property lawyers in lucknow , RERA lawyers in lucknow , drt lawyers in lucknow ,  best lawyers in lucknow high court , aft lawyers in lucknow ,  best lawyers in lucknow , advocates in lucknow , best criminal lawyers in lucknow , family court lawyers in lucknow , top civil lawyers in lucknow , debts recovery lawyers in lucknow , best criminal lawyer in uttar pradesh , best lawyer in uttar pradesh , best advocate in lucknow high court, criminal law firm in lucknow, criminal defense lawyers lucknow, legal consultancy services, practical implementation of law, expert criminal law management" />
-    <meta name="author" content="Adv. Mukul Sharma" /> --}}
+    {{-- <meta name="keywords" content="saslaw , saslawchambers , lawchambers , lawyers in lucknow , Top Lawyers in Lucknow , Best Lawyers in Lucknow , lawyers in lucknow , high court lawyers in lucknow  , civil lawyers in lucknow , criminal lawyers in lucknow , arbitration lawyers in lucknow , divorce lawyers in lucknow  , property lawyers in lucknow , RERA lawyers in lucknow , drt lawyers in lucknow ,  best lawyers in lucknow high court , aft lawyers in lucknow ,  best lawyers in lucknow , advocates in lucknow , best criminal lawyers in lucknow , family court lawyers in lucknow , top civil lawyers in lucknow , debts recovery lawyers in lucknow , best criminal lawyer in uttar pradesh , best lawyer in uttar pradesh , best advocate in lucknow high court, criminal law firm in lucknow, criminal defense lawyers lucknow, legal consultancy services, practical implementation of law, expert criminal law management" />--}}
+    <meta name="author" content="Adv. Mukul Sharma" />
     <meta name="keywords"
         content="top law firms india, top law companies in india, india law firms, law firms in india, best criminal lawyer in lucknow, law firm in lucknow, law firm lucknow, legal firm in lucknow, legal firms in lucknow, advocates in lucknow, advocate in lucknow, lawyers in lucknow, best criminal advocate in lucknow, best criminal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow " />
     <!--<meta name="google-site-verification" content="KMlCZAZvaSaA2l2Wy_ym7NL0_lDjdY8xahW_koUqU7M" />-->
@@ -116,7 +116,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-3">
                         <!-- Header-btn -->
                         <div class="header-btn d-none d-lg-block f-right">
-                            <a href="#" class="btn header-btn">Get Consultation</a>
+                            <a href="tel:+918470884598" class="btn header-btn">Get Consultation</a>
                         </div>
                     </div>
                     <!-- Mobile Menu -->

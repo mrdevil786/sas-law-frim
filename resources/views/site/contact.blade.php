@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>Contact Us</h2>
+                            <h2>CONTACT US</h2>
                         </div>
                     </div>
                 </div>
@@ -109,12 +109,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Your Answer In Just 5 Minutes</h2>
-                        <p>Checking your loan options does not affect your credit score!s</p>
+                        {{-- <p>Checking your loan options does not affect your credit score!s</p> --}}
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="#" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

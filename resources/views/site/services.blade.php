@@ -94,7 +94,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_9.webp') }}"
                                 alt="Intellectual Property Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -112,7 +112,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_1.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_6.webp') }}"
                                 alt="Property Matters Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -130,7 +130,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_8.webp') }}"
                                 alt="Constitutional Law & Writ Petitions Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -167,7 +167,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_3.webp') }}"
                                 alt="Service Matters Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -186,7 +186,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_7.webp') }}"
                                 alt="GST & Income Tax Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -204,7 +204,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_5.webp') }}"
                                 alt="Money Recovery & Cheque Bounce Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -222,7 +222,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_4.webp') }}"
                                 alt="Matrimonial and Family Dispute Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -242,7 +242,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_9.webp') }}"
                                 alt="Arbitration and ADR Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
@@ -262,7 +262,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal_2.webp') }}"
+                            <img src="{{ asset('frontend/assets/img/legal/legal_8.webp') }}"
                                 alt="Business Contract and Tort Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             <div class="practice-icon">
