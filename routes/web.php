@@ -27,7 +27,7 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         Route::middleware('admin')->group(function () {
             Route::get('/{id}', 'destroy')->name('destroy');
             Route::put('status', 'status')->name('status');
-            Route::get('create', 'view')->name('create');
+            Route::get('create', 'create')->name('create');
             Route::post('store', 'store')->name('store');
         });
 

@@ -22,7 +22,13 @@
     <section class="blog_area section-padding">
         <div class="container">
             <div class="row" id="blog-list">
-                @include('site.blog-card') <!-- Include blog list -->
+                @if ($blogs->isEmpty())
+                    <div class="col-12 text-center">
+                        <h1>No Data Available!</h1>
+                    </div>
+                @else
+                    @include('site.blog-card')
+                @endif
             </div>
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center min-vh-100">

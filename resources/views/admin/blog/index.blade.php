@@ -1,6 +1,6 @@
 @extends('admin.layout.main')
 
-@section('admin-page-title', 'Users')
+@section('admin-page-title', 'Blogs')
 
 @section('admin-main-section')
 
@@ -8,7 +8,7 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Blogs</h1>
-            <a href="{{route('admin.blogs.create')}}"><button class="btn btn-primary off-canvas" type="button">Add Blog</button></a>
+            <a href="{{ route('admin.blogs.create') }}"><button class="btn btn-primary" type="button">Add Blog</button></a>
         </div>
     </div>
     <!-- PAGE-HEADER END -->
