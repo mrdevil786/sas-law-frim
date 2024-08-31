@@ -25,14 +25,14 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
 
         // Routes for admins
         Route::middleware('admin')->group(function () {
-            Route::delete('/{id}', 'destroy')->name('destroy');
+            Route::get('/{id}', 'destroy')->name('destroy');
             Route::put('status', 'status')->name('status');
-            Route::get('create', 'view')->name('create.view');
+            Route::get('create', 'view')->name('create');
+            Route::post('store', 'store')->name('store');
         });
 
         // Routes for managers
         Route::middleware('manager')->group(function () {
-            Route::post('store', 'store')->name('store');
             Route::get('edit/{id}', 'edit')->name('edit');
             Route::put('update/{id}', 'update')->name('update');
         });
@@ -49,7 +49,7 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
 
         // Routes for admins
         Route::middleware('admin')->group(function () {
-            Route::delete('/{id}', 'destroy')->name('destroy');
+            Route::get('/{id}', 'destroy')->name('destroy');
             Route::put('status', 'status')->name('status');
             Route::post('create', 'create')->name('create');
         });

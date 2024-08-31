@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/brand/favicon.svg') }}" />
 
     <!-- TITLE -->
-    <title>{{ env('APP_NAME') }} – Login</title>
+    <title>Sharma & Sharma – Login</title>
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -55,7 +55,7 @@
                 <div class="col col-login mx-auto mt-7">
                     <div class="text-center">
                         <a href="{{ url('/') }}"><img src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
-                                class="header-brand-img" alt="" style="filter: invert(1);"></a>
+                                class="header-brand-img" alt="" style="filter: invert(0);"></a>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
                             action="{{ route('admin.submit.login') }}">
                             @csrf
                             <span class="login100-form-title pb-5">
-                                {{ env('APP_NAME') }} – Login
+                                Sharma & Sharma – Login
                             </span>
 
                             @include('admin.includes.alert')

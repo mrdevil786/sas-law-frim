@@ -8,8 +8,7 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Blogs</h1>
-            <button class="btn btn-primary off-canvas" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add Blog</button>
+            <a href="{{route('admin.blogs.create')}}"><button class="btn btn-primary off-canvas" type="button">Add Blog</button></a>
         </div>
     </div>
     <!-- PAGE-HEADER END -->
@@ -27,8 +26,8 @@
                             <thead>
                                 <tr>
                                     <th class="wd-15p border-bottom-0">#</th>
-                                    <th class="wd-15p border-bottom-0">Slug</th>
                                     <th class="wd-15p border-bottom-0">Image</th>
+                                    <th class="wd-15p border-bottom-0">Slug</th>
                                     <th class="wd-20p border-bottom-0">Title</th>
                                     <th class="wd-15p border-bottom-0">Description</th>
                                     <th class="wd-25p border-bottom-0">Created At</th>
@@ -43,12 +42,12 @@
                                 @foreach ($blogs as $blog)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $blog->slug }}</td>
                                         <td class="align-middle text-center"><img alt="image"
                                             class="avatar avatar-sm br-7" src="{{ asset($blog->image) }}"></td>
-                                        <td>{{ $blog->title }}</td>
+                                        <td>{{ \Illuminate\Support\Str::limit($blog->slug, 20, '...') }}</td>
+                                        <td>{{ \Illuminate\Support\Str::limit($blog->title, 20, '...') }}</td>
                                         <td>
-                                            {{ \Illuminate\Support\Str::limit($blog->description, 20, '...') }}
+                                            {{ \Illuminate\Support\Str::limit(strip_tags($blog->description), 20, '...') }}
                                         </td>
                                         <td>{{ $blog->created_at }}</td>
                                         <td>{{ $blog->updated_at }}</td>
@@ -88,16 +87,6 @@
         </div>
     </div>
     <!-- End Row -->
-
-    <!--Add Modal - Right Offcanvas-->
-    <x-Modal.Right-Offcanvas title="Add New User" action="{{ route('admin.blogs.store') }}" method="POST">
-
-        <x-fields.input-field label="Image" name="image" type="file" />
-        <x-fields.input-field label="Title" name="title" />
-        <x-fields.input-field label="Description" name="description" />
-
-    </x-Modal.Right-Offcanvas>
-    <!--/Right Offcanvas-->
 
 @endsection
 

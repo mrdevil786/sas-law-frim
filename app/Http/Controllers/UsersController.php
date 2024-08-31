@@ -108,4 +108,13 @@ class UsersController extends Controller
             return response()->json(['warning' => 'Cannot update status for administrator']);
         }
     }
+
+    // DELETE A USER
+    public function destroy($id)
+    {
+        $user = User::findOrFail($id);
+        $user->delete();
+
+        return redirect()->route('admin.users.index')->with('success', 'User deleted successfully!');
+    }
 }

@@ -48,11 +48,11 @@ class BlogsController extends Controller
 
 
     // DELETE A Blog
-    // public function destroy($id)
-    // {
-    //     $blog = Blog::findOrFail($id);
-    //     $blog->delete();
+    public function destroy($id)
+    {
+        $blog = Blog::findOrFail($id);
+        $blog->delete();
 
-    //     return redirect()->route('admin.blogs.index')->with('success', 'Blog deleted successfully!');
-    // }
+        return redirect()->route('admin.blogs.index')->with('success', 'Blog deleted successfully!');
+    }
 }
