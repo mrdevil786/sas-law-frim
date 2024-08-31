@@ -5,29 +5,6 @@
 @section('website-active-home', 'active')
 
 @section('website-main-section')
-    {{-- Modal-Popup --}}
-    <div class="modal fade" id="autoModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitle">Disclaimer</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">The Bar Council of India does not permit advertisement or solicitation by advocates in any form or
-                    manner. By accessing this website, www.saslawchambers.com, you acknowledge and confirm that you are seeking
-                    information relating to Sharma & Sharma Law Chambers LLP of your own accord and that there has been no form of solicitation,
-                    advertisement or inducement by Sharma & Sharma Law Chambers LLP or its members. The content of this website is for
-                    informational purposes only and should not be interpreted as soliciting or advertisement. No
-                    material/information provided on this website should be construed as legal advice. Sharma & Sharma Law Chambers LLP shall
-                    not be liable for consequences of any action taken by relying on the material/information provided on
-                    this website. The contents of this website are the intellectual property of Sharma & Sharma Law Chambers LLP.</div>
-                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Proceed</button></div>
-            </div>
-        </div>
-    </div>
-
     <!-- Slider Area Start -->
     <div class="slider-area">
         <div class="slider-active">
@@ -469,7 +446,8 @@
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="tel:+918470884598" class="btn btn-ans">Get Started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get Started <i
+                                class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,10 @@ class BlogsController extends Controller
         return view('admin.blog.index', compact('blogs'));
     }
 
-
+    public function view()
+    {
+        return view('admin.blog.edit');
+    }
     public function store(Request $request)
     {
         $request->validate([
@@ -25,6 +28,7 @@ class BlogsController extends Controller
             'title' => 'required|string|max:255',
             'description' => 'required',
         ]);
+
 
         $blog = new Blog();
         $blog->title = $request->title;
@@ -40,6 +44,8 @@ class BlogsController extends Controller
 
         return redirect()->route('admin.blogs.index')->with('success', 'Blog posted successfully!');
     }
+
+
 
     // DELETE A Blog
     // public function destroy($id)

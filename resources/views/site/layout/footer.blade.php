@@ -150,18 +150,25 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="{{ asset('frontend/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
-
-<!-- Script to handle modal display and auto-hide -->
 <script>
-    $(document).ready(function() {
-        setTimeout(function() {
-            $('#autoModal').modal('show');
-        }, 1000);
-        setTimeout(function() {
-            $('#autoModal').modal('hide');
-        }, 5000);
+    document.addEventListener('DOMContentLoaded', function() {
+        var popup = document.getElementById('acknowledge-popup');
+        var acknowledgeBtn = document.getElementById('acknowledge-btn');
+
+        // Check if the acknowledgment has already been made
+        if (!localStorage.getItem('acknowledged')) {
+            // Show the popup if not acknowledged
+            popup.style.display = 'flex';
+        }
+
+        // Hide the popup and store the acknowledgment state when the button is clicked
+        acknowledgeBtn.addEventListener('click', function() {
+            popup.style.display = 'none';
+            localStorage.setItem('acknowledged', 'true');
+        });
     });
 </script>
+@yield('website-script-section')
 </body>
 
 </html>

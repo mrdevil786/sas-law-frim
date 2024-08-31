@@ -52,6 +52,47 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
+
+    <style>
+        /* Popup overlay */
+        .popup-overlay {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            /* Ensure it is above other content */
+        }
+
+        /* Popup content */
+        .popup-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .popup-content h2 {
+            margin-top: 0;
+        }
+
+        .popup-content p {
+            margin: 20px 0;
+        }
+
+        .popup-content .btn {
+            margin-top: 20px;
+        }
+    </style>
+    @yield('website-style-section')
 </head>
 
 <body>
@@ -68,6 +109,29 @@
         </div>
     </div>
     <!-- Preloader Start -->
+
+    <!-- Acknowledge Popup -->
+    <div id="acknowledge-popup" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Acknowledgment Required</h2>
+            <p>The Bar Council of India does not permit advertisement or solicitation by advocates in any form or
+                manner. By
+                accessing this website, www.saslawchambers.com, you acknowledge and confirm that you are seeking
+                information
+                relating to Sharma & Sharma Law Chambers LLP of your own accord and that there has been no form of
+                solicitation, advertisement or inducement by Sharma & Sharma Law Chambers LLP or its members. The
+                content of
+                this website is for informational purposes only and should not be interpreted as soliciting or
+                advertisement. No material/information provided on this website should be construed as legal advice.
+                Sharma
+                & Sharma Law Chambers LLP shall not be liable for consequences of any action taken by relying on the
+                material/information provided on this website. The contents of this website are the intellectual
+                property of
+                Sharma & Sharma Law Chambers LLP.</p>
+            <button id="acknowledge-btn" class="btn btn-primary">Acknowledge</button>
+        </div>
+    </div>
+
     <header>
         <!-- Header Start -->
         <div class="header-area header-sticky">
