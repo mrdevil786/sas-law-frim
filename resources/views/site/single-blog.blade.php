@@ -1,5 +1,5 @@
 @extends('site.layout.main')
-@section('website-page-title', 'Blogs')
+@section('website-page-title', '{{ $blog->title }}')
 @section('website-active-blog', 'active')
 
 @section('website-style-section')
@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>BLOGS</h2>
+                            <h2>{{ $blog->title }}</h2>
                         </div>
                     </div>
                 </div>
