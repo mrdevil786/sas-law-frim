@@ -19,7 +19,6 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
     Route::get('/', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::get('logout', [AuthController::class, 'logout'])->name('user.logout');
 
-
     // Blogs Route
     Route::prefix('blogs')->name('blogs.')->controller(BlogsController::class)->group(function () {
 
@@ -80,19 +79,3 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         });
     });
 });
-
-
-
-// Route::name('users.')
-//     ->prefix('users')
-//     ->controller(UsersController::class)->group(function () {
-//         Route::get('/', 'index')->name('index');
-//         Route::get('blocked', 'index')->name('blocked');
-//         Route::get('deleted', 'index')->name('deleted');
-//         Route::post('store', 'store')->name('store');
-//         Route::get('edit/{id}', "edit")->name('edit');
-//         Route::delete('/{id}', 'destroy')->name('destroy');
-//         Route::post('update', 'update')->name('update');
-//         Route::put('status', 'status')->name('status');
-//         Route::get('view/{id}', 'showUser')->name('show');
-//     });

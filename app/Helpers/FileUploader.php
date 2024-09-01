@@ -15,20 +15,36 @@ class FileUploader
             if ($deleteOldFile && file_exists(public_path($deleteOldFile))) {
                 unlink(public_path($deleteOldFile));
             }
-    
+
             $fileName = Str::random(25) . '.' . $uploadedFile->getClientOriginalExtension();
-    
+
             $targetDirectory = public_path('storage/' . $targetPath);
             if (!is_dir($targetDirectory)) {
                 mkdir($targetDirectory, 0777, true);
             }
-    
+
             $uploadedFile->move($targetDirectory, $fileName);
-    
+
             return 'storage/' . $targetPath . '/' . $fileName;
         } catch (Exception $e) {
             Log::error('Exception in file upload: ' . $e->getMessage());
             throw new Exception("Failed to upload file: " . $e->getMessage());
         }
-    }    
+    }
+
+    public static function deleteFile(string $filePath): bool
+    {
+        try {
+            $fullPath = public_path($filePath);
+
+            if (file_exists($fullPath)) {
+                return unlink($fullPath);
+            }
+
+            return false;
+        } catch (Exception $e) {
+            Log::error('Exception in file deletion: ' . $e->getMessage());
+            return false;
+        }
+    }
 }
