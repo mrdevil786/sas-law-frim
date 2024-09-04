@@ -57,7 +57,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
-                        <h2>Get Your Answer In Just 5 Minutes</h2>
+                        <h2>Get Answers Fast with the Best Criminal Lawyer in Lucknow!</h2>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">

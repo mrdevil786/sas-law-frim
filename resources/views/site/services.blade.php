@@ -290,13 +290,13 @@
             <div class="row d-flex align-items-center">
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
-                        <h2>Get Your Legal Answers Quickly</h2>
-                        <p>Explore legal options swiftly without affecting your credit score.</p>
+                        <h2>Get Answers Fast with the Best Criminal Lawyer in Lucknow!</h2>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="#" class="btn btn-ans">Get Started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i
+                                class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
