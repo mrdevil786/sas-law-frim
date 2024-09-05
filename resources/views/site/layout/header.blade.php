@@ -33,13 +33,15 @@
     <meta name="author" content="Adv. Mukul Sharma" />
     <meta name="keywords"
         content="top law firms india, top law companies in india, india law firms, law firms in india, best criminal lawyer in lucknow, law firm in lucknow, law firm lucknow, legal firm in lucknow, legal firms in lucknow, advocates in lucknow, advocate in lucknow, lawyers in lucknow, best criminal advocate in lucknow, best criminal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow, experienced attorneys in lucknow, legal services in lucknow, legal consultants lucknow" />
+    <meta name="keywords"
+        content="best criminal advocate in lucknow, best crimimal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow" />
     <!--<meta name="google-site-verification" content="KMlCZAZvaSaA2l2Wy_ym7NL0_lDjdY8xahW_koUqU7M" />-->
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Ranking" name="Best Law Firm in Lucknow" />
     <meta content="About Sharma & Sharma Law Chambers"
         name="Sharma & Sharma Law Chambers LLP is a leading legal firm in Lucknow, operating as a limited liability partnership. We specialize in criminal law as well as legal consultancy, practical implementation of law, and litigation services across various fields. Our comprehensive offerings include criminal defense, para-legal services, and more. The firm is expertly managed by Mr. Mohit Sharma, Mr. Mukul Sharma, and Mr. Rohit Sharma, providing top-tier expertise in criminal defense law and other legal areas." />
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.svg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.png') }}">
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.carousel.min.css') }}">
@@ -100,10 +102,9 @@
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
+                <div class="preloader-circle" style="background-color: black;"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('frontend/assets/img/logo/logo.svg') }}" alt=""
-                        style="filter: invert(1);">
+                    <img src="{{ asset('frontend/assets/img/favicon.png') }}" alt="">
                 </div>
             </div>
         </div>
