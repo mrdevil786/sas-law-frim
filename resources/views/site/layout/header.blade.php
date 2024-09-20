@@ -104,7 +104,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle" style="background-color: black;"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('frontend/assets/img/favicon.png') }}" alt="">
+                    <img src="{{ asset('frontend/assets/img/favicon.svg') }}" alt="">
                 </div>
             </div>
         </div>
