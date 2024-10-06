@@ -10,6 +10,7 @@ Route::get('/para-legal', [BasicController::class, 'paraservices'])->name('site.
 Route::get('/about', [BasicController::class, 'about'])->name('site.about');
 Route::get('/contact', [BasicController::class, 'contact'])->name('site.contact');
 Route::get('/attorney', [BasicController::class, 'attorney'])->name('site.attorney');
+Route::get('/gallery',[BasicController::class, 'gallery'])->name('site.gallery');
 
 Route::get('/blog', [BlogsController::class,'index'])->name('blog.index');
 Route::post('/blog', [BlogsController::class,'store'])->name('blog.store');

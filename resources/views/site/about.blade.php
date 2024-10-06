@@ -29,15 +29,20 @@
                         <h2>About Us</h2>
                     </div>
                     <div class="about-caption mb-100">
-                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers)** is a leading <strong>law firm in Lucknow</strong>, renowned
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers)** is a leading <strong>law firm in
+                                Lucknow</strong>, renowned
                             for providing expert legal consultancy, litigation, and para-legal services. As the best
-                            <strong>criminal lawyer in Lucknow</strong>, our skilled high court lawyers adeptly handle diverse areas
+                            <strong>criminal lawyer in Lucknow</strong>, our skilled high court lawyers adeptly handle
+                            diverse areas
                             including foreign direct investments, corporate law, and business setups in Uttar Pradesh.
                             Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr. Rohit Sharma, our firm is distinguished
-                            among the <strong>top law firms in India</strong>. We serve both domestic and international clients, solidifying
+                            among the <strong>top law firms in India</strong>. We serve both domestic and international
+                            clients, solidifying
                             our reputation as a top choice for legal services in Lucknow and beyond. Whether you're looking
-                            for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law
-                            Chambers LLP stands out as a leading option for all your legal needs</p>
+                            for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in
+                                Lucknow</strong>, Sharma & Sharma Law
+                            Chambers LLP stands out as a leading option for all your legal needs
+                        </p>
                         <!-- Counter Up -->
                         <div class="count-clients">
                             <div class="single-counter text-center">
@@ -136,25 +141,33 @@
                     </div>
                     <div class="why-choose mb-100">
                         <h2>1. Top Expert Legal Team in Lucknow for Criminal Defense</h2>
-                        <p>At saslawchambers, we provide <strong>top lawyers in Lucknow</strong>, each specializing in their respective
+                        <p>At saslawchambers, we provide <strong>top lawyers in Lucknow</strong>, each specializing in their
+                            respective
                             fields, including civil, criminal, and property law. Every advocate in our law chambers has
                             years of experience, ensuring strong legal representation and higher success rates.</p>
                         <h2>2. Expert Legal Team in Lucknow: Committed to Excellence in Criminal Defense</h2>
-                        <p>Our <strong>high court lawyers in Lucknow</strong> are committed to excellence, providing 100% effort in every
+                        <p>Our <strong>high court lawyers in Lucknow</strong> are committed to excellence, providing 100%
+                            effort in every
                             case, whether in family courts or arbitration tribunals. We focus on building trust and
                             long-term relationships with our clients.</p>
                         <h2>3. High Success Rate Criminal Lawyer in Lucknow</h2>
-                        <p>Known for being some of the <strong>best lawyers in Lucknow</strong> High Court, we deliver the best possible
-                            results for our clients. Our exceptional success rate sets us apart from other <strong>law firms in
+                        <p>Known for being some of the <strong>best lawyers in Lucknow</strong> High Court, we deliver the
+                            best possible
+                            results for our clients. Our exceptional success rate sets us apart from other <strong>law firms
+                                in
                                 Lucknow.</strong></p>
                         <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
-                        <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in Lucknow</strong> and <strong>DRT lawyers in
-                            Lucknow</strong> focus on achieving quick outcomes without compromising quality.</p>
+                        <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in Lucknow</strong> and
+                            <strong>DRT lawyers in
+                                Lucknow</strong> focus on achieving quick outcomes without compromising quality.</p>
                         <h2>5. Personalized Legal Solutions</h2>
-                        <p>We provide personalized strategies for each client, whether you need the <strong>best criminal lawyers in
-                            Uttar Pradesh</strong>, or representation for property disputes and <strong>debt recovery in Lucknow</strong>.</p>
+                        <p>We provide personalized strategies for each client, whether you need the <strong>best criminal
+                                lawyers in
+                                Uttar Pradesh</strong>, or representation for property disputes and <strong>debt recovery in
+                                Lucknow</strong>.</p>
                         <h2>6. Top Law Firm in India</h2>
-                        <p>With <strong>top lawyers</strong> across Uttar Pradesh, including <strong>AFT lawyers in Lucknow</strong>, we ensure consistent,
+                        <p>With <strong>top lawyers</strong> across Uttar Pradesh, including <strong>AFT lawyers in
+                                Lucknow</strong>, we ensure consistent,
                             high-quality legal representation no matter where you need us.</p>
                     </div>
                 </div>
@@ -277,53 +290,115 @@
     </div>
     <!-- Testimonial End -->
     <!-- Team Mates Start -->
-    <div class="teams-area section-padding30">
+    <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
-            <div class="row ">
+            <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-f text-center mb-70">
                         <h2>Meet Our Attorneys</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="single-teams text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}" alt="">
+
+            <!-- Bootstrap Carousel -->
+            <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <!-- First Slide -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
+                                            alt="Mr. Mukul Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
+                                        <span>Designated Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
+                                            alt="Mr. Mohit Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Mohit Sharma</a></h4>
+                                        <span>Criminal Defence Lawyer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
+                                            alt="R K Srivastava">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">R K Srivastava</a></h4>
+                                        <span>Senior Partner</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="team-caption">
-                            <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                            <span>Designated Partner</span>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_4.webp') }}"
+                                            alt="Mr. Mukul Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Ramakar Shukla</a></h4>
+                                        <span>Senior Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_5.webp') }}"
+                                            alt="Mr. Mohit Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Rohit Sharma</a></h4>
+                                        <span>Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
+                                            alt="R K Srivastava">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Hari Govind Dubey</a></h4>
+                                        <span>Advocate High Court</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="single-teams text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h4><a href="#">Mr. Mohit Sharma</a></h4>
-                            <span>Criminal Defence Lawyer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                    <div class="single-teams text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h4><a href="#">R K Srivastava</a></h4>
-                            <span>Senior Partner</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- Carousel Controls -->
+                <a class="carousel-control-prev" href="#attorneysCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#attorneysCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
-    <!-- Team Mates End-->
+
+    <!-- Team Mates End -->
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">
@@ -336,7 +411,8 @@
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i
+                                class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

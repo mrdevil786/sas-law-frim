@@ -26,14 +26,6 @@
 
     <section class="contact-section">
         <div class="container">
-            <div class="d-sm-block mb-5 pb-4">
-                <h2 class="contact-title">Our Location</h2>
-                <iframe style="border: 2px solid #da0000;"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0165407746754!2d81.00907147489357!3d26.871215561873612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3c842645d0b%3A0x20f3de94aaa3b659!2sSharma%20%26%20Sharma%20Law%20Chambers%20LLP!5e0!3m2!1sen!2sin!4v1723295911419!5m2!1sen!2sin"
-                    width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
             <div class="row">
                 <div class="col-12">
                     <h2 class="contact-title">Get in Touch</h2>
@@ -42,12 +34,6 @@
                     <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
                         novalidate="novalidate">
                         <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
-                                </div>
-                            </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input class="form-control valid" name="name" id="name" type="text"
@@ -62,11 +48,30 @@
                                         placeholder="Email">
                                 </div>
                             </div>
+                            <div class="col-12" style="margin-bottom: 30px;">
+                                <div class="form-group">
+                                    <!-- Updated multiple select input for subject -->
+                                    <select class="form-control" name="subject[]" id="subject" multiple>
+                                        <option value="" disabled selected>Choose your subject(s)</option>
+                                        <option value="NDPS Act">NDPS Act</option>
+                                            <option value="Dowry Death">Dowry Death</option>
+                                            <option value="Matrimonial Dispute">Matrimonial Dispute</option>
+                                            <option value="Arms Act">Arms Act</option>
+                                            <option value="TADA Act & POTA Act">TADA Act & POTA Act</option>
+                                            <option value="C.B.I. & E.D">C.B.I. & E.D</option>
+                                            <option value="N.I. Act">N.I. Act</option>
+                                            <option value="Income Tax & Sales Tax">Income Tax & Sales Tax</option>
+                                            <option value="Explosives Act">Explosives Act</option>
+                                            <option value="Cyber Crime">Cyber Crime</option>
+                                            <option value="Corporate Matters">Corporate Matters</option>
+                                            <option value="Bhartiya Nyaya Sanhita">Bhartiya Nyaya Sanhita</option>
+                                    </select>
+                                </div>
+                            </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input class="form-control" name="subject" id="subject" type="text"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
-                                        placeholder="Enter Subject">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Enter Message"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -99,8 +104,16 @@
                     </div>
                 </div>
             </div>
+            <div class="d-sm-block mb-5 pb-4">
+                <h2 class="contact-title">Our Location</h2>
+                <iframe style="border: 2px solid #da0000;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0165407746754!2d81.00907147489357!3d26.871215561873612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3c842645d0b%3A0x20f3de94aaa3b659!2sSharma%20%26%20Sharma%20Law%20Chambers%20LLP!5e0!3m2!1sen!2sin!4v1723295911419!5m2!1sen!2sin"
+                    width="100%" height="480" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </section>
+
 
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
@@ -114,7 +127,8 @@
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i
+                                class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

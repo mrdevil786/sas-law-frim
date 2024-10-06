@@ -153,26 +153,21 @@
                                     <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a>
                                     </li>
                                     <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About</a></li>
-                                    <li><a href="#">Services</a>
-                                        <ul class="submenu">
-                                            <li class="@yield('website-active-services')"><a
-                                                    href="{{ route('site.services') }}">Legal Services</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a
-                                                    href="{{ route('site.para-legal') }}">Paralegal Services</a></li>
-                                        </ul>
-                                    </li>
-                                    {{-- <li><a href="/">Case Studies</a></li> --}}
-                                    <li class="@yield('website-active-attorney')"><a href="{{ route('site.attorney') }}">Attorney</a>
+                                    <li class="@yield('website-active-services')"><a href="{{ route('site.services') }}">Area of
+                                            Practice</a></li>
                                     <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact</a>
                                     </li>
-                                    <li class="@yield('website-active-blog')"><a href="{{ route('blog.index') }}">Blog</a></li>
-                                    {{-- <li><a href="#">Pages</a>
+                                    <li><a href="#">Get Involved</a>
                                         <ul class="submenu">
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Element</a></li>
-                                            <li><a href="case_details.html">Case Details</a></li>
+                                            <li class="@yield('website-active-attorney')"><a href="{{ route('site.attorney') }}">Partners/Associates</a>
+                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Testimonials/Reviews</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Media/Publications</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Our Clients</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Internship</a></li>
+                                            <li class="@yield('website-active-gallery')"><a href="{{ route('site.gallery') }}">Gallery</a></li>
                                         </ul>
-                                    </li> --}}
+                                    </li>
+                                    <li class="@yield('website-active-blog')"><a href="{{ route('blog.index') }}">Blog</a></li>
                                 </ul>
                             </nav>
                         </div>

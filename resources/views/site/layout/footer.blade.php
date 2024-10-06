@@ -16,7 +16,7 @@
                                 <div class="footer-pera">
                                     <p>Sharma & Associates (saslawchambers) delivers reliable, expert legal services
                                         across criminal, civil, corporate, and family law. As one of the best law firms
-                                        in Lucknow, we offer effective legal solutions tailored to your needs..</p>
+                                        in Lucknow, we offer effective legal solutions tailored to your needs.</p>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +52,19 @@
                         <div class="footer-tittle">
                             <h4>Services</h4>
                             <ul>
-                                <li><a href="{{ route('site.services') }}">Legal Services</a></li>
-                                <li><a href="{{ route('site.para-legal') }}">Paralegal Services</a></li>
+                                <li>NDPS Act</li>
+                                <li>Dowry Death</li>
+                                <li>Matrimonial Dispute</li>
+                                <li>Matrimonial Dispute</li>
+                                <li>Arms Act</li>
+                                <li>TADA Act & POTA Act</li>
+                                <li>C.B.I. & E.D</li>
+                                <li>Negotiable Instrument Act (N.I. Act)</li>
+                                <li>Income Tax & Sales Tax</li>
+                                <li>Explosives Act</li>
+                                <li>Cyber Crime</li>
+                                <li>Corporate Matters</li>
+                                <li>Bhartiya Nyaya Sanhita (B. N. S.).</li>
                             </ul>
                         </div>
                     </div>
