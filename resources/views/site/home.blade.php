@@ -16,7 +16,7 @@
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
                                 <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law For Criminal Cases in Lucknow</h1>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law Firm For Criminal Cases in Lucknow</h1>
                             </div>
                         </div>
                     </div>
@@ -70,19 +70,15 @@
                     <div class="section-tittle section-tittle-l mb-70">
                         <h2>About Us</h2>
                     </div>
-                    <div class="about-caption mb-100">
-                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers)** is a leading <strong>law firm in
-                                Lucknow</strong>, renowned
+                    <div class="about-caption mb-100 text-justify">
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>law firm in Lucknow</strong>, renowned
                             for providing expert legal consultancy, litigation, and para-legal services. As the best
                             <strong>criminal lawyer in Lucknow</strong>, our skilled high court lawyers adeptly handle
-                            diverse areas
-                            including foreign direct investments, corporate law, and business setups in Uttar Pradesh.
+                            diverse areas including foreign direct investments, corporate law, and business setups in Uttar Pradesh.
                             Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr. Rohit Sharma, our firm is distinguished
                             among the <strong>top law firms in India</strong>. We serve both domestic and international
-                            clients, solidifying
-                            our reputation as a top choice for legal services in Lucknow and beyond. Whether you're looking
-                            for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in
-                                Lucknow</strong>, Sharma & Sharma Law
+                            clients, solidifying our reputation as a top choice for legal services in Lucknow and beyond. Whether you're looking
+                            for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law
                             Chambers LLP stands out as a leading option for all your legal needs.
                         </p>
                         <div class="count-clients">
@@ -226,6 +222,11 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col text-center mt-4">
+                    <a href="{{route('site.services')}}" class="btn btn-primary btn-lg">See More</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Legal Practice Area End -->
@@ -273,21 +274,14 @@
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
                                     <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
-                                    <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in
-                                            Lucknow</strong> and
-                                        <strong>DRT lawyers in Lucknow</strong> focus on achieving quick outcomes without
-                                        compromising quality.
+                                    <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in Lucknow</strong> and <strong>DRT lawyers in Lucknow</strong> focus on achieving quick outcomes without compromising quality.
                                     </p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
                                     <h2>5. Personalized Legal Solutions</h2>
-                                    <p>We provide personalized strategies for each client, whether you need the <strong>best
-                                            criminal
-                                            lawyers in Uttar Pradesh</strong>, or representation for property disputes and
-                                        <strong>debt recovery in
-                                            Lucknow</strong>.
+                                    <p>We provide personalized strategies for each client, whether you need the <strong>best criminal lawyers in Uttar Pradesh</strong>, or representation for property disputes and <strong>debt recovery inLucknow</strong>.
                                     </p>
                                 </div>
                             </div>
@@ -306,7 +300,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Meet Our Attorneys</h2>
+                        <h2>Our Clients</h2>
                     </div>
                 </div>
             </div>
@@ -447,18 +441,6 @@
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-teams text-center">
                                     <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                                        <span>Designated Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
                                             alt="Mr. Mohit Sharma">
                                     </div>
@@ -475,8 +457,20 @@
                                             alt="R K Srivastava">
                                     </div>
                                     <div class="team-caption">
-                                        <h4><a href="#">R K Srivastava</a></h4>
+                                        <h4><a href="#">Rakesh Srivastava</a></h4>
                                         <span>Senior Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
+                                            alt="Mr. Mukul Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
+                                        <span>Designated Partner</span>
                                     </div>
                                 </div>
                             </div>
@@ -550,9 +544,9 @@
                     </div>
                 </div>
                 <div class="row gallery-item">
-                    @foreach (['pg1', 'pg2', 'pg3', 'pg10', 'pg5', 'pg6', 'pg7', 'pg17'] as $image)
+                    @foreach (['pg1', 'pg3', 'pg5', 'pg6', 'pg7', 'pg17'] as $image)
                         <div
-                            class="col-md-{{ in_array($image, ['pg4', 'pg5', 'pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
+                            class="col-md-{{ in_array($image, ['pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
                             <a href="{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}" class="img-pop-up">
                                 <div class="single-gallery-image"
                                     style="background: url('{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}');">
@@ -561,11 +555,17 @@
                         </div>
                     @endforeach
                 </div>
+                <div class="row">
+                    <div class="col text-center mt-4">
+                        <a href="{{route('site.gallery')}}" class="btn btn-primary btn-lg">See More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <!-- End Align Area -->
-    
+
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">

@@ -65,6 +65,7 @@
                                             <option value="Cyber Crime">Cyber Crime</option>
                                             <option value="Corporate Matters">Corporate Matters</option>
                                             <option value="Bhartiya Nyaya Sanhita">Bhartiya Nyaya Sanhita</option>
+                                            <option value="Others">Others</option>
                                     </select>
                                 </div>
                             </div>

@@ -46,18 +46,6 @@
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-teams text-center">
                                     <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                                        <span>Designated Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
                                             alt="Mr. Mohit Sharma">
                                     </div>
@@ -70,11 +58,24 @@
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-teams text-center">
                                     <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}" alt="R K Srivastava">
+                                        <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
+                                            alt="R K Srivastava">
                                     </div>
                                     <div class="team-caption">
-                                        <h4><a href="#">R K Srivastava</a></h4>
+                                        <h4><a href="#">Rakesh Srivastava</a></h4>
                                         <span>Senior Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
+                                            alt="Mr. Mukul Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
+                                        <span>Designated Partner</span>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +110,8 @@
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-teams text-center">
                                     <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}" alt="R K Srivastava">
+                                        <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
+                                            alt="R K Srivastava">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Hari Govind Dubey</a></h4>

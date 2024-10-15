@@ -28,17 +28,17 @@
                     <div class="section-tittle section-tittle-l mb-70">
                         <h2>About Us</h2>
                     </div>
-                    <div class="about-caption mb-100">
-                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers)** is a leading <strong>law firm in
-                                Lucknow</strong>, renowned
-                            for providing expert legal consultancy, litigation, and para-legal services. As the best
+                    <div class="about-caption mb-100 text-justify">
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>law firm in
+                                Lucknow</strong>, renowned for providing expert legal consultancy, litigation, and
+                            para-legal services. As the best
                             <strong>criminal lawyer in Lucknow</strong>, our skilled high court lawyers adeptly handle
                             diverse areas
                             including foreign direct investments, corporate law, and business setups in Uttar Pradesh.
                             Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr. Rohit Sharma, our firm is distinguished
                             among the <strong>top law firms in India</strong>. We serve both domestic and international
-                            clients, solidifying
-                            our reputation as a top choice for legal services in Lucknow and beyond. Whether you're looking
+                            clients, solidifying our reputation as a top choice for legal services in Lucknow and beyond.
+                            Whether you're looking
                             for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in
                                 Lucknow</strong>, Sharma & Sharma Law
                             Chambers LLP stands out as a leading option for all your legal needs
@@ -139,7 +139,7 @@
                     <div class="section-tittle section-tittle-l mb-70">
                         <h2>Why Choose Us</h2>
                     </div>
-                    <div class="why-choose mb-100">
+                    <div class="why-choose mb-100 text-justify">
                         <h2>1. Top Expert Legal Team in Lucknow for Criminal Defense</h2>
                         <p>At saslawchambers, we provide <strong>top lawyers in Lucknow</strong>, each specializing in their
                             respective
@@ -159,7 +159,8 @@
                         <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
                         <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in Lucknow</strong> and
                             <strong>DRT lawyers in
-                                Lucknow</strong> focus on achieving quick outcomes without compromising quality.</p>
+                                Lucknow</strong> focus on achieving quick outcomes without compromising quality.
+                        </p>
                         <h2>5. Personalized Legal Solutions</h2>
                         <p>We provide personalized strategies for each client, whether you need the <strong>best criminal
                                 lawyers in
@@ -183,7 +184,7 @@
             <div class="row ">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Meet Our Clients</h2>
+                        <h2>Our Clients</h2>
                     </div>
                 </div>
             </div>
@@ -299,25 +300,12 @@
                     </div>
                 </div>
             </div>
-
             <!-- Bootstrap Carousel -->
             <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
                     <!-- First Slide -->
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                                        <span>Designated Partner</span>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-teams text-center">
                                     <div class="team-img">
@@ -337,8 +325,20 @@
                                             alt="R K Srivastava">
                                     </div>
                                     <div class="team-caption">
-                                        <h4><a href="#">R K Srivastava</a></h4>
+                                        <h4><a href="#">Rakesh Srivastava</a></h4>
                                         <span>Senior Partner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="single-teams text-center">
+                                    <div class="team-img">
+                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
+                                            alt="Mr. Mukul Sharma">
+                                    </div>
+                                    <div class="team-caption">
+                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
+                                        <span>Designated Partner</span>
                                     </div>
                                 </div>
                             </div>

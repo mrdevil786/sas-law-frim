@@ -35,27 +35,41 @@
 
             <!-- Single Items -->
             <div class="row">
-                <!-- Criminal Cases -->
+                <!-- Arbitration and Other ADR Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal-13.webp') }}"
-                                alt="NDPS Cases Services in Lucknow">
+                            <img src="{{ asset('frontend/assets/img/legal/legal-12.webp') }}"
+                                alt="Bhartiya Nyaya Sanhita (B. N. S.) Legal Services in Lucknow">
                             <!-- Practice Icon -->
                             {{-- <div class="practice-icon">
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
-                            <h3><a href="#">All Matters Related To NDPS Act</a></h3>
-                            <p>The Narcotic Drugs and Psychotropic Substances Act (NDPS Act) is a comprehensive law that regulates the production, possession, sale, and distribution of controlled substances in India. Our attorneys have expertise in defending clients accused of NDPS Act violations, including:</p>
-                            <ol>
-                                <li>Possession of controlled substances</li>
-                                <li>Sale or distribution of controlled substances</li>
-                                <li>Trafficking of controlled substances</li>
-                                <li>Manufacturing or cultivating controlled substances</li>
-                            </ol>
-                            <p>We ensure clients receive fair treatment and strategic defense strategies to minimize penalties.</p>
+                        <div class="practice-caption text-justify">
+                            <h3><a href="#">All Matters Related To Bhartiya Nyaya Sanhita (B. N. S.)</a></h3>
+                            <p>Our attorneys have expertise in handling cases related to the Bhartiya Nyaya Sanhita (BNS),
+                                also known as the Indian Penal Code (IPC). We provide comprehensive legal support for
+                                matters including:</p>
+                            <ul>
+                                <li>Criminal offenses</li>
+                                <li>Civil wrongs</li>
+                                <li>Tort law</li>
+                                <li>Constitutional law</li>
+                            </ul>
+                            <br>
+                            <p>Our team has in-depth knowledge of the BNS and its applications, ensuring clients receive
+                                expert guidance and representation. We handle cases related to:</p>
+                                <ul>
+                                    <li>Offenses against the state</li>
+                                    <li>Offenses against the public</li>
+                                    <li>Offenses against individuals</li>
+                                    <li>Property offenses</li>
+                                </ul>
+                                <br>
+                            <p>We prioritize strategic defense and representation to minimize penalties and protect clients'
+                                rights. Our attorneys are well-versed in the intricacies of the BNS and ensure clients
+                                receive personalized attention and expert legal guidance</p>
                         </div>
                     </div>
                 </div>
@@ -71,16 +85,20 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Dowry Death</a></h3>
-                            <p>Dowry death cases involve allegations of harassment or violence leading to the death of a married woman. Our attorneys provide compassionate and aggressive legal support to victims' families, including:</p>
-                            <ol>
+                            <p>Dowry death cases involve allegations of harassment or violence leading to the death of a
+                                married woman. Our attorneys provide compassionate and aggressive legal support to victims'
+                                families, including:</p>
+                            <ul>
                                 <li>Filing criminal complaints against perpetrators</li>
                                 <li>Representing families in criminal proceedings</li>
                                 <li>Seeking compensation and justice for affected families</li>
                                 <li>Providing emotional support and counseling</li>
-                            </ol>
-                            <p>We navigate complex criminal procedures to secure justice and compensation for affected families.</p>
+                            </ul>
+                            <br>
+                            <p>We navigate complex criminal procedures to secure justice and compensation for affected
+                                families.</p>
                         </div>
                     </div>
                 </div>
@@ -96,16 +114,19 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Matrimonial Dispute</a></h3>
                             <p>Matrimonial disputes involve complex legal and emotional issues, including:</p>
-                            <ol>
+                            <ul>
                                 <li>Divorce proceedings</li>
                                 <li>Child custody battles</li>
                                 <li>Alimony disputes</li>
                                 <li>Property division</li>
-                            </ol>
-                            <p>Our skilled attorneys prioritize emotional support and strategic representation to protect clients' rights and interests. We navigate mediation, arbitration, and litigation to achieve favorable outcomes for our clients.</p>
+                            </ul>
+                            <br>
+                            <p>Our skilled attorneys prioritize emotional support and strategic representation to protect
+                                clients' rights and interests. We navigate mediation, arbitration, and litigation to achieve
+                                favorable outcomes for our clients.</p>
                         </div>
                     </div>
                 </div>
@@ -121,15 +142,18 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Arms Act</a></h3>
-                            <p>The Arms Act regulates possession, trade, and use of firearms in India. Our attorneys specialize in defending clients accused of Arms Act violations, including:</p>
-                            <ol>
+                            <p>The Arms Act regulates possession, trade, and use of firearms in India. Our attorneys
+                                specialize in defending clients accused of Arms Act violations, including:</p>
+                            <ul>
                                 <li>Illegal possession of firearms</li>
                                 <li>Sale or transfer of firearms without license</li>
                                 <li>Use of firearms for unlawful purposes</li>
-                            </ol>
-                            <p>We ensure clients receive expert representation to minimize penalties and protect their rights.</p>
+                            </ul>
+                            <br>
+                            <p>We ensure clients receive expert representation to minimize penalties and protect their
+                                rights.</p>
                         </div>
                     </div>
                 </div>
@@ -145,15 +169,19 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To TADA Act & POTA Act</a></h3>
-                            <p>The Terrorist and Disruptive Activities (Prevention) Act (TADA Act) and Prevention of Terrorism Act (POTA Act) are stringent laws addressing terrorism-related offenses. Our experienced attorneys handle complex cases under these acts, including:</p>
-                            <ol>
+                            <p>The Terrorist and Disruptive Activities (Prevention) Act (TADA Act) and Prevention of
+                                Terrorism Act (POTA Act) are stringent laws addressing terrorism-related offenses. Our
+                                experienced attorneys handle complex cases under these acts, including:</p>
+                            <ul>
                                 <li>Terrorist activities</li>
                                 <li>Disruptive activities</li>
                                 <li>Conspiracy and abetment</li>
-                            </ol>
-                            <p>We ensure clients receive expert representation and strategic defense strategies to minimize penalties.</p>
+                            </ul>
+                            <br>
+                            <p>We ensure clients receive expert representation and strategic defense strategies to minimize
+                                penalties.</p>
                         </div>
                     </div>
                 </div>
@@ -169,17 +197,20 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To C.B.I. & E.D</a></h3>
-                            <p>Our attorneys have expertise in handling cases related to the Central Bureau of Investigation (CBI) and Enforcement Directorate (ED), including:</p>
-                            <ol>
+                            <p>Our attorneys have expertise in handling cases related to the Central Bureau of Investigation
+                                (CBI) and Enforcement Directorate (ED), including:</p>
+                            <ul>
                                 <li>White-collar crimes</li>
                                 <li>Financial frauds</li>
                                 <li>Corruption cases</li>
                                 <li>Money laundering</li>
                                 <li>Foreign exchange violations</li>
-                            </ol>
-                            <p>We provide strategic legal support to individuals and businesses facing CBI and ED investigations and cases, ensuring they receive expert guidance and representation.</p>
+                            </ul>
+                            <br>
+                            <p>We provide strategic legal support to individuals and businesses facing CBI and ED
+                                investigations and cases, ensuring they receive expert guidance and representation.</p>
                         </div>
                     </div>
                 </div>
@@ -195,16 +226,19 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Negotiable Instrument Act (N.I. Act)</a></h3>
-                            <p>Our attorneys specialize in handling cases related to the Negotiable Instruments Act, including:</p>
-                            <ol>
+                            <p>Our attorneys specialize in handling cases related to the Negotiable Instruments Act,
+                                including:</p>
+                            <ul>
                                 <li>Cheque bounce cases</li>
                                 <li>Dishonour of cheques</li>
                                 <li>Payment disputes</li>
                                 <li>Instrument negotiations</li>
-                            </ol>
-                            <p>We prioritize swift resolution and minimize penalties for our clients, ensuring they receive expert legal guidance and representation.</p>
+                            </ul>
+                            <br>
+                            <p>We prioritize swift resolution and minimize penalties for our clients, ensuring they receive
+                                expert legal guidance and representation.</p>
                         </div>
                     </div>
                 </div>
@@ -220,16 +254,19 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Income Tax & Sales Tax</a></h3>
-                            <p>Our attorneys provide expert legal guidance on income tax and sales tax matters, including:</p>
-                            <ol>
+                            <p>Our attorneys provide expert legal guidance on income tax and sales tax matters, including:
+                            </p>
+                            <ul>
                                 <li>Tax assessments</li>
                                 <li>Disputes with tax authorities</li>
                                 <li>Litigation</li>
                                 <li>Tax planning and compliance</li>
-                            </ol>
-                            <p>We ensure clients comply with tax regulations and represent them in tax authorities' proceedings to minimize penalties and protect their interests.</p>
+                            </ul>
+                            <br>
+                            <p>We ensure clients comply with tax regulations and represent them in tax authorities'
+                                proceedings to minimize penalties and protect their interests.</p>
                         </div>
                     </div>
                 </div>
@@ -245,15 +282,17 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Explosives Act</a></h3>
                             <p>Our attorneys defend clients accused of Explosives Act violations, including:</p>
-                            <ol>
+                            <ul>
                                 <li>Illegal possession of explosives</li>
                                 <li>Unlawful use of explosives</li>
                                 <li>Explosives trafficking</li>
-                            </ol>
-                            <p>We prioritize safety and ensure clients receive expert representation to minimize penalties.</p>
+                            </ul>
+                            <br>
+                            <p>We prioritize safety and ensure clients receive expert representation to minimize penalties.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -269,16 +308,18 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Cyber Crime</a></h3>
                             <p>Our attorneys provide skilled legal support to victims of cybercrime, including:</p>
-                            <ol>
+                            <ul>
                                 <li>Hacking</li>
                                 <li>Online harassment</li>
                                 <li>Identity theft</li>
                                 <li>Cyber stalking</li>
-                            </ol>
-                            <p>We ensure swift action and strategic representation to protect clients' rights and interests.</p>
+                            </ul>
+                            <br>
+                            <p>We ensure swift action and strategic representation to protect clients' rights and interests.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -293,48 +334,47 @@
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
+                        <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Corporate Matters</a></h3>
                             <p>Our attorneys provide expert legal guidance on corporate matters, including:</p>
-                            <ol>
+                            <ul>
                                 <li>Mergers and acquisitions</li>
                                 <li>Joint ventures</li>
                                 <li>Company formations</li>
                                 <li>Disputes and litigation</li>
-                            </ol>
-                            <p>We prioritize strategic support to protect clients' interests and ensure compliance with corporate regulations.</p>
+                            </ul>
+                            <br>
+                            <p>We prioritize strategic support to protect clients' interests and ensure compliance with
+                                corporate regulations.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Arbitration and Other ADR Cases -->
+                <!-- Criminal Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
-                            <img src="{{ asset('frontend/assets/img/legal/legal-12.webp') }}"
-                                alt="Bhartiya Nyaya Sanhita (B. N. S.) Legal Services in Lucknow">
+                            <img src="{{ asset('frontend/assets/img/legal/legal-13.webp') }}"
+                                alt="NDPS Cases Services in Lucknow">
                             <!-- Practice Icon -->
                             {{-- <div class="practice-icon">
                                 <i class="flaticon-care"></i>
                             </div> --}}
                         </div>
-                        <div class="practice-caption">
-                            <h3><a href="#">All Matters Related To Bhartiya Nyaya Sanhita (B. N. S.)</a></h3>
-                            <p>Our attorneys have expertise in handling cases related to the Bhartiya Nyaya Sanhita (BNS), also known as the Indian Penal Code (IPC). We provide comprehensive legal support for matters including:</p>
-                            <ol>
-                                <li>Criminal offenses</li>
-                                <li>Civil wrongs</li>
-                                <li>Tort law</li>
-                                <li>Constitutional law</li>
-                            </ol>
-                            <p>Our team has in-depth knowledge of the BNS and its applications, ensuring clients receive expert guidance and representation. We handle cases related to:</p>
-                            <ol>
-                                <li>Offenses against the state</li>
-                                <li>Offenses against the public</li>
-                                <li>Offenses against individuals</li>
-                                <li>Property offenses</li>
-                            </ol>
-                            <p>We prioritize strategic defense and representation to minimize penalties and protect clients' rights. Our attorneys are well-versed in the intricacies of the BNS and ensure clients receive personalized attention and expert legal guidance</p>
+                        <div class="practice-caption text-justify">
+                            <h3><a href="#">All Matters Related To NDPS Act</a></h3>
+                            <p>The Narcotic Drugs and Psychotropic Substances Act (NDPS Act) is a comprehensive law that
+                                regulates the production, possession, sale, and distribution of controlled substances in
+                                India. Our attorneys have expertise in defending clients accused of NDPS Act violations,
+                                including:</p>
+                            <ul>
+                                <li>Possession of controlled substances</li>
+                                <li>Sale or distribution of controlled substances</li>
+                                <li>Trafficking of controlled substances</li>
+                                <li>Manufacturing or cultivating controlled substances</li>
+                            </ul>
+                            <br>
+                            <p>We ensure clients receive fair treatment and strategic defense strategies to minimize
+                                penalties.</p>
                         </div>
                     </div>
                 </div>

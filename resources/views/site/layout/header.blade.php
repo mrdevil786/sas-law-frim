@@ -102,9 +102,9 @@
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
-                <div class="preloader-circle" style="background-color: black;"></div>
+                <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('frontend/assets/img/favicon.svg') }}" alt="">
+                    <img src="{{ asset('frontend/assets/img/loader.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -152,10 +152,10 @@
                                 <ul id="navigation">
                                     <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a>
                                     </li>
-                                    <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About</a></li>
+                                    <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About Us</a></li>
                                     <li class="@yield('website-active-services')"><a href="{{ route('site.services') }}">Area of
                                             Practice</a></li>
-                                    <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact</a>
+                                    <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact Us</a>
                                     </li>
                                     <li><a href="#">Get Involved</a>
                                         <ul class="submenu">

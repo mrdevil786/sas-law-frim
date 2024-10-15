@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 @section('website-page-title', 'Services in Lucknow | Saslawchambers')
-@section('website-active-services', 'active')
+@section('website-active-gallery', 'active')
 @section('website-main-section')
 
     <!-- Slider Area Start -->

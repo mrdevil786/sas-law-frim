@@ -13,10 +13,10 @@
                         </div>
                         <div class="single-footer-caption mb-30">
                             <div class="footer-tittle">
-                                <div class="footer-pera">
-                                    <p>Sharma & Associates (saslawchambers) delivers reliable, expert legal services
-                                        across criminal, civil, corporate, and family law. As one of the best law firms
-                                        in Lucknow, we offer effective legal solutions tailored to your needs.</p>
+                                <div class="footer-pera text-justify">
+                                    <p>Sharma & Sharma Law Chambers LLP delivers reliable, expert legal services
+                                        across all kind of criminal matters as explained in Practice Areas Section.
+                                        As one of the best law firms in Lucknow, we offer effective legal solutions tailored to your needs.</p>
                                 </div>
                             </div>
                         </div>
