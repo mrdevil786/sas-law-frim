@@ -80,7 +80,7 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>C-501, Vibhuti Khand, Gomti Nagar</h3>
+                            <h3>C-501, New High Court, Gomtinagar</h3>
                             <p>Lucknow</p>
                         </div>
                     </div>
