@@ -89,7 +89,6 @@
                                         <div class="submit-btn">
                                             <button type="submit" name="submit" id="newsletter-submit"
                                                 class="email_icon newsletter-submit button-contactForm">
-
                                                 Subscribe <i class="ti-angle-double-right"></i></button>
                                         </div>
                                         <div class="mt-10 info"></div>

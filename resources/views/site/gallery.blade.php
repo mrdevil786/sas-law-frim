@@ -2,7 +2,6 @@
 @section('website-page-title', 'Services in Lucknow | Saslawchambers')
 @section('website-active-gallery', 'active')
 @section('website-main-section')
-
     <!-- Slider Area Start -->
     <div class="slider-area">
         <!-- Mobile Menu -->
@@ -47,5 +46,4 @@
         </div>
     </div>
     <!-- End Align Area -->
-
 @endsection

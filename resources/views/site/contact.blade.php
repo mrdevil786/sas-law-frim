@@ -1,11 +1,7 @@
 @extends('site.layout.main')
-
 @section('website-page-title', 'Contact')
-
 @section('website-active-contact', 'active')
-
 @section('website-main-section')
-
     <!-- slider Area Start-->
     <div class="slider-area ">
         <!-- Mobile Menu -->
@@ -23,7 +19,6 @@
         </div>
     </div>
     <!-- slider Area End-->
-
     <section class="contact-section">
         <div class="container">
             <div class="row">
@@ -86,7 +81,7 @@
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
                             <h3>C-501, Vibhuti Khand, Gomti Nagar</h3>
-                            <p>Lucknow, Uttar Pradesh 226010.</p>
+                            <p>Lucknow</p>
                         </div>
                     </div>
                     <div class="media contact-info">
@@ -114,8 +109,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">
@@ -136,5 +129,4 @@
         </div>
     </div>
     <!-- Want To Work End -->
-
 @endsection

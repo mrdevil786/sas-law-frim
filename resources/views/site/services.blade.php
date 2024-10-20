@@ -2,7 +2,6 @@
 @section('website-page-title', 'Services in Lucknow | Saslawchambers')
 @section('website-active-services', 'active')
 @section('website-main-section')
-
     <!-- Slider Area Start -->
     <div class="slider-area">
         <!-- Mobile Menu -->
@@ -12,7 +11,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>Area of Practice</h2>
+                            <h2>Area of Practice - Best Criminal Law Firm in Lucknow</h2>
                         </div>
                     </div>
                 </div>
@@ -20,7 +19,6 @@
         </div>
     </div>
     <!-- Slider Area End -->
-
     <!-- Legal Practice Area Start -->
     <div class="legal-practice-area section-padding30">
         <div class="container">
@@ -32,7 +30,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- Single Items -->
             <div class="row">
                 <!-- Arbitration and Other ADR Cases -->
@@ -41,10 +38,6 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-12.webp') }}"
                                 alt="Bhartiya Nyaya Sanhita (B. N. S.) Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Bhartiya Nyaya Sanhita (B. N. S.)</a></h3>
@@ -73,17 +66,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Civil Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-10.webp') }}"
                                 alt="Dowry Death Cases Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Dowry Death</a></h3>
@@ -102,17 +90,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Business & Corporate Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-8.webp') }}"
                                 alt="Matrimonial Dispute Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Matrimonial Dispute</a></h3>
@@ -130,17 +113,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Intellectual Property Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-9.webp') }}"
                                 alt="Arms Act Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Arms Act</a></h3>
@@ -157,17 +135,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Property Matters -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-11.webp') }}"
                                 alt="TADA Act & POTA Act Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To TADA Act & POTA Act</a></h3>
@@ -185,17 +158,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Constitutional Law & Writ Petitions -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-6.webp') }}"
                                 alt="C.B.I. & E.D Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To C.B.I. & E.D</a></h3>
@@ -214,17 +182,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- RERA, MSME & Other Tribunals Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-7.webp') }}"
                                 alt="Negotiable Instrument Act (N.I. Act) Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Negotiable Instrument Act (N.I. Act)</a></h3>
@@ -242,17 +205,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Service Matters -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-3.webp') }}"
                                 alt="Income Tax & Sales Tax Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Income Tax & Sales Tax</a></h3>
@@ -270,17 +228,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- GST & Income Tax Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-2.webp') }}"
                                 alt="Explosives Act Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Explosives Act</a></h3>
@@ -296,17 +249,12 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Money Recovery & Cheque Bounce Cases -->
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-practice mb-30">
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-4.webp') }}"
                                 alt="Cyber Crime Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Cyber Crime</a></h3>
@@ -329,10 +277,6 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-1.webp') }}"
                                 alt="Corporate Matters Legal Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To Corporate Matters</a></h3>
@@ -355,10 +299,6 @@
                         <div class="practice-img">
                             <img src="{{ asset('frontend/assets/img/legal/legal-13.webp') }}"
                                 alt="NDPS Cases Services in Lucknow">
-                            <!-- Practice Icon -->
-                            {{-- <div class="practice-icon">
-                                <i class="flaticon-care"></i>
-                            </div> --}}
                         </div>
                         <div class="practice-caption text-justify">
                             <h3><a href="#">All Matters Related To NDPS Act</a></h3>
@@ -383,8 +323,6 @@
         </div>
     </div>
     <!-- Legal Practice Area End -->
-
-
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">

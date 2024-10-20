@@ -1,11 +1,7 @@
 @extends('site.layout.main')
-
 @section('website-page-title', 'Partners/Associtaes')
-
 @section('website-active-attorney', 'active')
-
 @section('website-main-section')
-
     <!-- slider Area Start-->
     <div class="slider-area ">
         <!-- Mobile Menu -->
@@ -15,7 +11,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>OUR PARTNERS/ASSOCIATES</h2>
+                            <h2>Our Partners & Associates</h2>
                         </div>
                     </div>
                 </div>
@@ -23,20 +19,16 @@
         </div>
     </div>
     <!-- slider Area End-->
-
-    <!-- Testimonial Start -->
-
     <!-- Team Mates Start -->
     <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-f text-center mb-70">
-                        <h2>Meet Our Attorneys</h2>
+                        <h2>Meet the Best Advocates in Lucknow</h2>
                     </div>
                 </div>
             </div>
-
             <!-- Bootstrap Carousel -->
             <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
@@ -47,11 +39,11 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
-                                            alt="Mr. Mohit Sharma">
+                                            alt="Mr. Mohit Sharma - Best Criminal Advocate in Lucknow">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Mohit Sharma</a></h4>
-                                        <span>Criminal Defence Lawyer</span>
+                                        <span>Best Criminal Advocate in Lucknow</span>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +51,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
-                                            alt="R K Srivastava">
+                                            alt="Rakesh Srivastava - Senior Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Rakesh Srivastava</a></h4>
@@ -71,7 +63,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma">
+                                            alt="Mr. Mukul Sharma - Designated Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Mukul Sharma</a></h4>
@@ -87,7 +79,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_4.webp') }}"
-                                            alt="Mr. Mukul Sharma">
+                                            alt="Ramakar Shukla - Senior Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Ramakar Shukla</a></h4>
@@ -99,7 +91,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_5.webp') }}"
-                                            alt="Mr. Mohit Sharma">
+                                            alt="Mr. Rohit Sharma - Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Rohit Sharma</a></h4>
@@ -111,7 +103,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
-                                            alt="R K Srivastava">
+                                            alt="Mr. Hari Govind Dubey - Advocate High Court">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Hari Govind Dubey</a></h4>
@@ -134,16 +126,15 @@
             </div>
         </div>
     </div>
-
     <!-- Team Mates End -->
-
+    <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding"
         data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Meet Our Partners</h2>
+                        <h2>Our Valued Clients</h2>
                     </div>
                 </div>
             </div>
@@ -200,7 +191,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-4.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Dollar Heights" style="width:200px;">
                                                 <span>Dollar Heights</span>
                                             </div>
                                         </div>
@@ -213,7 +204,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-5.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Gold Properties" style="width:200px;">
                                                 <span>Gold Properties</span>
                                             </div>
                                         </div>
@@ -226,7 +217,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-6.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Manvadhikar Media" style="width:200px;">
                                                 <span>Manvadhikar Media</span>
                                             </div>
                                         </div>
@@ -239,7 +230,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-7.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Manvadhikar Media Foundation" style="width:200px;">
                                                 <span>Manvadhikar Media Foundation</span>
                                             </div>
                                         </div>
@@ -261,9 +252,7 @@
             </div>
         </div>
     </div>
-
     <!-- Testimonial End -->
-
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">
@@ -271,13 +260,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Answers Fast with the Best Criminal Lawyer in Lucknow!</h2>
-                        {{-- <p>Checking your loan options does not affect your credit score!s</p> --}}
+                        <p>Contact the best advocate for criminal cases in Lucknow today!</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="tel:+918470884598" class="btn btn-ans">Get started <i
-                                class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get Started<i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

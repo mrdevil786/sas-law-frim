@@ -1,9 +1,6 @@
 @extends('site.layout.main')
-
-@section('website-page-title', 'Home')
-
+@section('website-page-title', 'Home - Best Lawfirm in Lucknow')
 @section('website-active-home', 'active')
-
 @section('website-main-section')
     <!-- Slider Area Start -->
     <div class="slider-area">
@@ -16,7 +13,8 @@
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
                                 <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law Firm For Criminal Cases in Lucknow</h1>
+                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Law Firm For Criminal Cases in Lucknow
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -68,18 +66,20 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5">
                     <div class="section-tittle section-tittle-l mb-70">
-                        <h2>About Us</h2>
+                        <h2>About Us - Best Criminal Advocate in Lucknow</h2>
                     </div>
                     <div class="about-caption mb-100 text-justify">
-                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>law firm in Lucknow</strong>, renowned
-                            for providing expert legal consultancy, litigation, and para-legal services. As the best
-                            <strong>criminal lawyer in Lucknow</strong>, our skilled high court lawyers adeptly handle
-                            diverse areas including foreign direct investments, corporate law, and business setups in Uttar Pradesh.
-                            Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr. Rohit Sharma, our firm is distinguished
-                            among the <strong>top law firms in India</strong>. We serve both domestic and international
-                            clients, solidifying our reputation as a top choice for legal services in Lucknow and beyond. Whether you're looking
-                            for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law
-                            Chambers LLP stands out as a leading option for all your legal needs.
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>law firm in
+                                Lucknow</strong>, renowned for providing expert legal consultancy, litigation, and
+                            para-legal services. As the best <strong>criminal lawyer in Lucknow</strong>, our skilled high
+                            court lawyers adeptly handle diverse areas including foreign direct investments, corporate law,
+                            and business setups in Uttar Pradesh. Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr.
+                            Rohit Sharma, our firm is distinguished among the <strong>top law firms in India</strong>. We
+                            serve both domestic and international clients, solidifying our reputation as a top choice for
+                            legal services in Lucknow and beyond. Whether you're looking for a premier <strong>law firm in
+                                Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law
+                            Chambers LLP stands out as a leading option for all your legal needs, especially if you are
+                            searching for the <strong>best advocate for criminal cases</strong>.
                         </p>
                         <div class="count-clients">
                             <div class="single-counter text-center">
@@ -118,7 +118,7 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="section-tittle section-tittle-f text-center mb-70">
-                                    <h2>For Consultation</h2>
+                                    <h2>For Consultation with the Best Criminal Advocate Near You</h2>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                         </div>
                         <div class="practice-caption">
                             <h4><a href="{{ route('site.services') }}">All Matters Related To NDPS Act</a></h4>
-                            <p>The Narcotic Drugs and Psychotropic Substances Act (NDPS Act) is a....</p>
+                            <p>The Narcotic Drugs and Psychotropic Substances Act (NDPS Act) addresses...</p>
                             <a href="{{ route('site.services') }}" class="read-more1">Read More</a>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="practice-caption">
                             <h4><a href="{{ route('site.services') }}">All Matters Related To Dowry Death</a></h4>
-                            <p>Dowry death cases involve allegations of harassment or violence....</p>
+                            <p>Dowry death cases involve allegations of harassment or violence...</p>
                             <a href="{{ route('site.services') }}" class="read-more1">Read More</a>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                         </div>
                         <div class="practice-caption">
                             <h4><a href="{{ route('site.services') }}">All Matters Related To Matrimonial Dispute</a></h4>
-                            <p>Matrimonial disputes involve complex legal and emotional issues....</p>
+                            <p>Matrimonial disputes involve complex legal and emotional issues...</p>
                             <a href="{{ route('site.services') }}" class="read-more1">Read More</a>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
             </div>
             <div class="row">
                 <div class="col text-center mt-4">
-                    <a href="{{route('site.services')}}" class="btn btn-primary btn-lg">See More</a>
+                    <a href="{{ route('site.services') }}" class="btn btn-primary btn-lg">See More</a>
                 </div>
             </div>
         </div>
@@ -236,53 +236,48 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
                     <div class="section-tittle section-tittle-l mb-70">
-                        <h2>Why Choose Us</h2>
+                        <h2>Why Choose Us as the Best Criminal Law Firm in Lucknow</h2>
                     </div>
                     <div id="whyChooseUsCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="why-choose mb-100">
                                     <h2>1. Top Expert Legal Team in Lucknow for Criminal Defense</h2>
-                                    <p>At saslawchambers, we provide <strong>top lawyers in Lucknow</strong>, each
-                                        specializing in their
-                                        respective fields, including civil, criminal, and property law. Every advocate in
-                                        our law chambers has
-                                        years of experience, ensuring strong legal representation and higher success rates.
-                                    </p>
+                                    <p>At saslawchambers, we provide <strong>top lawyers in Lucknow</strong>, specializing
+                                        in civil, criminal, and property law. Every advocate in our law chambers has years
+                                        of experience, ensuring strong legal representation and high success rates.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
-                                    <h2>2. Expert Legal Team in Lucknow: Committed to Excellence in Criminal Defense</h2>
-                                    <p>Our <strong>high court lawyers in Lucknow</strong> are committed to excellence,
-                                        providing 100%
+                                    <h2>2. Committed to Excellence in Criminal Defense</h2>
+                                    <p>Our <strong>high court lawyers in Lucknow</strong> are dedicated to providing 100%
                                         effort in every case, whether in family courts or arbitration tribunals. We focus on
-                                        building trust and
-                                        long-term relationships with our clients.</p>
+                                        building trust and long-term relationships with our clients.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
                                     <h2>3. High Success Rate Criminal Lawyer in Lucknow</h2>
-                                    <p>Known for being some of the <strong>best lawyers in Lucknow</strong> High Court, we
-                                        deliver the
-                                        best possible results for our clients. Our exceptional success rate sets us apart
-                                        from other <strong>law firms
-                                            in Lucknow.</strong></p>
+                                    <p>Known for being among the <strong>best lawyers in Lucknow</strong>, we strive for
+                                        optimal results for our clients. Our exceptional success rate sets us apart from
+                                        other <strong>law firms in Lucknow</strong>.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
-                                    <h2>4. Top Criminal Lawyer in Lucknow for Efficient Case Resolution</h2>
-                                    <p>Specializing in super-fast case resolution, our <strong>top civil lawyers in Lucknow</strong> and <strong>DRT lawyers in Lucknow</strong> focus on achieving quick outcomes without compromising quality.
-                                    </p>
+                                    <h2>4. Efficient Case Resolution with the Best Criminal Advocates</h2>
+                                    <p>Specializing in swift case resolutions, our <strong>top civil lawyers in
+                                            Lucknow</strong> and <strong>DRT lawyers in Lucknow</strong> focus on achieving
+                                        quick outcomes without compromising quality.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="why-choose mb-100">
-                                    <h2>5. Personalized Legal Solutions</h2>
-                                    <p>We provide personalized strategies for each client, whether you need the <strong>best criminal lawyers in Uttar Pradesh</strong>, or representation for property disputes and <strong>debt recovery inLucknow</strong>.
-                                    </p>
+                                    <h2>5. Personalized Legal Solutions Tailored for You</h2>
+                                    <p>We provide customized strategies for each client, whether you need the <strong>best
+                                            criminal lawyers in Uttar Pradesh</strong>, or representation for property
+                                        disputes and <strong>debt recovery in Lucknow</strong>.</p>
                                 </div>
                             </div>
                         </div>
@@ -291,7 +286,6 @@
             </div>
         </div>
     </div>
-
     <!-- Why Choose Us End -->
     <!-- Testimonial Start -->
     <div class="testimonial-area testimonial-padding"
@@ -300,7 +294,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Our Clients</h2>
+                        <h2>Our Valued Clients</h2>
                     </div>
                 </div>
             </div>
@@ -357,7 +351,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-4.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Dollar Heights" style="width:200px;">
                                                 <span>Dollar Heights</span>
                                             </div>
                                         </div>
@@ -370,7 +364,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-5.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Gold Properties" style="width:200px;">
                                                 <span>Gold Properties</span>
                                             </div>
                                         </div>
@@ -383,7 +377,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-6.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Manvadhikar Media" style="width:200px;">
                                                 <span>Manvadhikar Media</span>
                                             </div>
                                         </div>
@@ -396,7 +390,7 @@
                                         <div class="testimonial-founder">
                                             <div class="founder-img">
                                                 <img src="{{ asset('frontend/assets/img/testmonial/client-7.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
+                                                    alt="Manvadhikar Media Foundation" style="width:200px;">
                                                 <span>Manvadhikar Media Foundation</span>
                                             </div>
                                         </div>
@@ -418,20 +412,17 @@
             </div>
         </div>
     </div>
-
     <!-- Testimonial End -->
-
     <!-- Team Mates Start -->
     <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-tittle section-tittle-f text-center mb-70">
-                        <h2>Meet Our Attorneys</h2>
+                        <h2>Meet the Best Advocates in Lucknow</h2>
                     </div>
                 </div>
             </div>
-
             <!-- Bootstrap Carousel -->
             <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
@@ -442,11 +433,11 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
-                                            alt="Mr. Mohit Sharma">
+                                            alt="Mr. Mohit Sharma - Best Criminal Advocate in Lucknow">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Mohit Sharma</a></h4>
-                                        <span>Criminal Defence Lawyer</span>
+                                        <span>Best Criminal Advocate in Lucknow</span>
                                     </div>
                                 </div>
                             </div>
@@ -454,7 +445,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
-                                            alt="R K Srivastava">
+                                            alt="Rakesh Srivastava - Senior Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Rakesh Srivastava</a></h4>
@@ -466,7 +457,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma">
+                                            alt="Mr. Mukul Sharma - Designated Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Mukul Sharma</a></h4>
@@ -482,7 +473,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_4.webp') }}"
-                                            alt="Mr. Mukul Sharma">
+                                            alt="Ramakar Shukla - Senior Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Ramakar Shukla</a></h4>
@@ -494,7 +485,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_5.webp') }}"
-                                            alt="Mr. Mohit Sharma">
+                                            alt="Mr. Rohit Sharma - Partner">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Rohit Sharma</a></h4>
@@ -506,7 +497,7 @@
                                 <div class="single-teams text-center">
                                     <div class="team-img">
                                         <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
-                                            alt="R K Srivastava">
+                                            alt="Mr. Hari Govind Dubey - Advocate High Court">
                                     </div>
                                     <div class="team-caption">
                                         <h4><a href="#">Mr. Hari Govind Dubey</a></h4>
@@ -529,9 +520,7 @@
             </div>
         </div>
     </div>
-
     <!-- Team Mates End -->
-
     <!-- Start Align Area -->
     <div class="whole-wrap">
         <div class="container box_1170">
@@ -539,14 +528,13 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section-tittle section-tittle-f text-center mb-70">
-                            <h2>Image Gallery</h2>
+                            <h2>Image Gallery of the Best Lawfirm in Lucknow</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row gallery-item">
                     @foreach (['pg1', 'pg3', 'pg5', 'pg6', 'pg7', 'pg17'] as $image)
-                        <div
-                            class="col-md-{{ in_array($image, ['pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
+                        <div class="col-md-{{ in_array($image, ['pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
                             <a href="{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}" class="img-pop-up">
                                 <div class="single-gallery-image"
                                     style="background: url('{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}');">
@@ -557,15 +545,13 @@
                 </div>
                 <div class="row">
                     <div class="col text-center mt-4">
-                        <a href="{{route('site.gallery')}}" class="btn btn-primary btn-lg">See More</a>
+                        <a href="{{ route('site.gallery') }}" class="btn btn-primary btn-lg">See More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- End Align Area -->
-
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">
@@ -573,13 +559,12 @@
                 <div class="col-xl-7 col-lg-9 col-md-8">
                     <div class="wantToWork-caption">
                         <h2>Get Answers Fast with the Best Criminal Lawyer in Lucknow!</h2>
-                        {{-- <p>Checking your loan options does not affect your credit score!</p> --}}
+                        <p>Contact the best advocate for criminal cases in Lucknow today!</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-3 col-md-4">
                     <div class="wantToWork-btn f-right">
-                        <a href="tel:+918470884598" class="btn btn-ans">Get Started <i
-                                class="ti-angle-double-right"></i></a>
+                        <a href="tel:+918470884598" class="btn btn-ans">Get Started<i class="ti-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

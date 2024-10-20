@@ -1,10 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ env('APP_NAME') }} - @yield('website-page-title')</title>
+    <title>{{ env('APP_NAME') }} - @yield('website-page-title') | Best Lawfirm in Lucknow | Best Criminal Lawfirm in Lucknow</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index,follow" />
     <meta name="distribution" content="global" />
@@ -17,29 +16,16 @@
     <meta name="geo.position" content="26.8517, 81.0173" />
     <meta name="ICBM" content="26.8517, 81.0173" />
     <meta name="author" content="www.saslawchambers.com, info@saslawchambers.com" />
-    <meta name="copyright"
-        content="2023 www.saslawchambers.com - Lawyers in Lucknow, High Court Lawyers in Lucknow, Lucknow" />
+    <meta name="copyright" content="2023 www.saslawchambers.com - Best Lawfirm in Lucknow" />
     <meta name="publisher" content="www.saslawchambers.com" />
     <meta name="city" content="Lucknow" />
     <meta name="country" content="India" />
     <meta name="state" content="Lucknow" />
     <meta name="zipcode" content="226010" />
-    <meta name="geo.placename" content="Lucknow, India" />
     <meta name="format-detection" content="telephone=+91 8470884598" />
-    <!--<meta name="ahrefs-site-verification" content="6a9b773b17018331594302b48e4e9a71e1e3af95776a4890a25cbe86a20b162f">-->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description"
-        content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow. With over 15 years of experience, our top-rated criminal lawyers offer expert defense and legal services. Contact us for a consultation today.">
+    <meta name="description" content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow, specializing in criminal defense and legal consultancy. Contact us today for expert legal services.">
     <meta name="author" content="Adv. Mukul Sharma" />
-    <meta name="keywords"
-        content="top law firms india, top law companies in india, india law firms, law firms in india, best criminal lawyer in lucknow, law firm in lucknow, law firm lucknow, legal firm in lucknow, legal firms in lucknow, advocates in lucknow, advocate in lucknow, lawyers in lucknow, best criminal advocate in lucknow, best criminal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow, experienced attorneys in lucknow, legal services in lucknow, legal consultants lucknow" />
-    <meta name="keywords"
-        content="best criminal advocate in lucknow, best crimimal advocate near me, best criminal lawyers in lucknow, best criminal advocate near me, best criminal defence advocate in lucknow" />
-    <!--<meta name="google-site-verification" content="KMlCZAZvaSaA2l2Wy_ym7NL0_lDjdY8xahW_koUqU7M" />-->
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Ranking" name="Best Law Firm in Lucknow" />
-    <meta content="About Sharma & Sharma Law Chambers"
-        name="Sharma & Sharma Law Chambers LLP is a leading legal firm in Lucknow, operating as a limited liability partnership. We specialize in criminal law as well as legal consultancy, practical implementation of law, and litigation services across various fields. Our comprehensive offerings include criminal defense, para-legal services, and more. The firm is expertly managed by Mr. Mohit Sharma, Mr. Mukul Sharma, and Mr. Rohit Sharma, providing top-tier expertise in criminal defense law and other legal areas." />
+    <meta name="keywords" content="Best Lawfirm in Lucknow, Best Criminal Lawfirm in Lucknow, Best lawfirm for criminal cases in lucknow, Best Criminal Advocate in Lucknow, Best Criminal Advocate Near Me, Best Criminal Lawyers in Lucknow, Best Criminal Advocate near me, Best Criminal Defence Advocate in lucknow, Best advocate for criminal cases, Best Advocate in Lucknow" />
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.png') }}">
     <!-- CSS here -->
@@ -54,7 +40,6 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
-
     <style>
         /* Popup overlay */
         .popup-overlay {
@@ -71,7 +56,6 @@
             z-index: 1000;
             /* Ensure it is above other content */
         }
-
         /* Popup content */
         .popup-content {
             background: #fff;
@@ -81,22 +65,18 @@
             max-width: 500px;
             width: 90%;
         }
-
         .popup-content h2 {
             margin-top: 0;
         }
-
         .popup-content p {
             margin: 20px 0;
         }
-
         .popup-content .btn {
             margin-top: 20px;
         }
     </style>
     @yield('website-style-section')
 </head>
-
 <body>
     <!-- Preloader Start -->
     <div id="preloader-active">
@@ -110,29 +90,14 @@
         </div>
     </div>
     <!-- Preloader Start -->
-
     <!-- Acknowledge Popup -->
     <div id="acknowledge-popup" class="popup-overlay">
         <div class="popup-content">
             <h2>Acknowledgment Required</h2>
-            <p>The Bar Council of India does not permit advertisement or solicitation by advocates in any form or
-                manner. By
-                accessing this website, www.saslawchambers.com, you acknowledge and confirm that you are seeking
-                information
-                relating to Sharma & Sharma Law Chambers LLP of your own accord and that there has been no form of
-                solicitation, advertisement or inducement by Sharma & Sharma Law Chambers LLP or its members. The
-                content of
-                this website is for informational purposes only and should not be interpreted as soliciting or
-                advertisement. No material/information provided on this website should be construed as legal advice.
-                Sharma
-                & Sharma Law Chambers LLP shall not be liable for consequences of any action taken by relying on the
-                material/information provided on this website. The contents of this website are the intellectual
-                property of
-                Sharma & Sharma Law Chambers LLP.</p>
+            <p>The Bar Council of India prohibits advertisement or solicitation by advocates. By accessing www.saslawchambers.com, you acknowledge that you are seeking information about Sharma & Sharma Law Chambers LLP voluntarily, without any solicitation or inducement from the firm. The website content is for informational purposes only and not legal advice. Sharma & Sharma Law Chambers LLP is not liable for any actions taken based on the information provided. All website content is the intellectual property of Sharma & Sharma Law Chambers LLP.</p>
             <button id="acknowledge-btn" class="btn btn-primary">Acknowledge</button>
         </div>
     </div>
-
     <header>
         <!-- Header Start -->
         <div class="header-area header-sticky">
