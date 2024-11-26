@@ -2619,7 +2619,7 @@ hr {
     font-size: 80px;
     font-weight: 700;
     margin-bottom: 14px;
-    color: #1b1c29;
+    color: #fff;
     font-family: "Playfair Display", serif;
     line-height: 1.2;
     text-transform: capitalize;
@@ -2652,7 +2652,7 @@ hr {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 39px;
-    color: #9c9c9c;
+    color: #fff;
     margin-bottom: 25px;
     padding-right: 49px;
     text-transform: capitalize;
@@ -2804,7 +2804,7 @@ hr {
 
 @media (max-width: 767px) {
     .slider-area .slider-bottom .slider-bottom-cap span {
-        font-size: 26px;
+        font-size: 20px;
     }
 }
 

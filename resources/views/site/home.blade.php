@@ -22,7 +22,9 @@
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".6s">
                         <p>Get an Appointment</p>
-                        <a href="tel:+918470884598"><span>+91-8470884598</span></a>
+                        <a href="tel:+918470884598">
+                            <span><i class="fas fa-phone-alt fa-flip-horizontal"></i> +91-8470884598</span>
+                        </a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video ani-btn" href="{{ asset('frontend/assets/video/Video.mp4') }}">
@@ -48,7 +50,9 @@
                 <div class="slider-bottom">
                     <div class="slider-bottom-cap" data-animation="fadeInLeft" data-delay=".4s">
                         <p>Schedule Your Consultation 24/7</p>
-                        <a href="tel:+918470884598"><span>+91-8470884598</span></a>
+                        <a href="tel:+918470884598">
+                            <span><i class="fas fa-phone-alt fa-flip-horizontal"></i> +91-8470884598</span>
+                        </a>
                     </div>
                     <div class="slider-video d-flex align-items-center" data-animation="fadeInRight" data-delay=".8s">
                         <a class="popup-video" href="https://www.youtube.com/watch?v=yXaegVWBrK0">
