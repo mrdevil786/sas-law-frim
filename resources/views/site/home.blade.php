@@ -12,8 +12,8 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                             <div class="hero__caption">
-                                <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP</p>
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Best Advocates for Criminal Cases in Lucknow
+                                {{-- <p data-animation="fadeInUp" data-delay=".6s">Sharma & Sharma Law Chambers LLP</p> --}}
+                                {{-- <h1 data-animation="fadeInUp" data-delay=".4s">Best Advocates for Criminal Cases in Lucknow --}}
                                 </h1>
                             </div>
                         </div>
