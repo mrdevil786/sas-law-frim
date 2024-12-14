@@ -11,12 +11,13 @@ class BlogsController extends Controller
     public function index(Request $request)
     {
         $perPage = 6;
+        $routePrefix = 'site.single-blog';
         if ($request->ajax()) {
-            $blogs = Blog::latest()->with('author')->paginate($perPage);
-            return view('site.blog-card', ['blogs' => $blogs])->render();
+            $allData = Blog::latest()->with('author')->paginate($perPage);
+            return view('site.includes.global-card', ['allData' => $allData,'routePrefix' => $routePrefix])->render();
         }
-        $blogs = Blog::latest()->with('author')->paginate($perPage);
-        return view('site.blog', compact('blogs'));
+        $allData = Blog::latest()->with('author')->paginate($perPage);
+        return view('site.blog', compact('allData','routePrefix'));
     }
     public function single_blog($slug)
     {

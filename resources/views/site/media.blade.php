@@ -1,6 +1,6 @@
 @extends('site.layout.main')
-@section('website-page-title', 'Blogs')
-@section('website-active-blog', 'active')
+@section('website-page-title', 'Media & Publications')
+@section('website-active-media', 'active')
 @section('website-main-section')
     <!-- slider Area Start-->
     <div class="slider-area">
@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>BLOGS</h2>
+                            <h2>Media & Publications</h2>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 page++;
                 $('#loading-spinner').show();
                 $.ajax({
-                    url: "{{ route('blog.index') }}",
+                    url: "{{ route('media.index') }}",
                     type: 'GET',
                     data: {
                         page: page

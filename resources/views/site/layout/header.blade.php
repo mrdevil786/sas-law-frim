@@ -1,18 +1,23 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6QWQE7JSSX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-6QWQE7JSSX');
     </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ env('APP_NAME') }} - @yield('website-page-title') | Best Lawfirm in Lucknow | Best Criminal Lawfirm in Lucknow</title>
+    <title>{{ env('APP_NAME') }} - @yield('website-page-title') | Best Lawfirm in Lucknow | Best Criminal Lawfirm in Lucknow
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index,follow" />
     <meta name="distribution" content="global" />
@@ -32,9 +37,11 @@
     <meta name="state" content="Lucknow" />
     <meta name="zipcode" content="226010" />
     <meta name="format-detection" content="telephone=+91 8470884598" />
-    <meta name="description" content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow, specializing in criminal defense and legal consultancy. Contact us today for expert legal services.">
+    <meta name="description"
+        content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow, specializing in criminal defense and legal consultancy. Contact us today for expert legal services.">
     <meta name="author" content="Adv. Mukul Sharma" />
-    <meta name="keywords" content="Best Lawfirm in Lucknow, Best Criminal Lawfirm in Lucknow, Best lawfirm for criminal cases in lucknow, Best Criminal Advocate in Lucknow, Best Criminal Advocate Near Me, Best Criminal Lawyers in Lucknow, Best Criminal Advocate near me, Best Criminal Defence Advocate in lucknow, Best advocate for criminal cases, Best Advocate in Lucknow" />
+    <meta name="keywords"
+        content="Best Lawfirm in Lucknow, Best Criminal Lawfirm in Lucknow, Best lawfirm for criminal cases in lucknow, Best Criminal Advocate in Lucknow, Best Criminal Advocate Near Me, Best Criminal Lawyers in Lucknow, Best Criminal Advocate near me, Best Criminal Defence Advocate in lucknow, Best advocate for criminal cases, Best Advocate in Lucknow" />
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.png') }}">
     <!-- CSS here -->
@@ -67,6 +74,7 @@
             z-index: 1000;
             /* Ensure it is above other content */
         }
+
         /* Popup content */
         .popup-content {
             background: #fff;
@@ -76,18 +84,53 @@
             max-width: 500px;
             width: 90%;
         }
+
         .popup-content h2 {
             margin-top: 0;
         }
+
         .popup-content p {
             margin: 20px 0;
         }
+
         .popup-content .btn {
             margin-top: 20px;
+        }
+
+        /* WhatsApp Button Styling */
+        #whatsapp-button {
+            position: fixed;
+            bottom: 100px;
+            right: 25px;
+            z-index: 1000;
+        }
+
+        #whatsapp-button img {
+            width: 60px;
+            /* You can adjust the size as needed */
+            height: 60px;
+            border-radius: 50%;
+            background-color: #25d366;
+            /* WhatsApp green background */
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        @media (max-width:767px){
+            #whatsapp-button{
+                right: 10px
+            }
+        }
+
+        #whatsapp-button img:hover {
+            transform: scale(1.1);
+            /* Adds a hover effect to enlarge the icon */
         }
     </style>
     @yield('website-style-section')
 </head>
+
 <body>
     <!-- Preloader Start -->
     <div id="preloader-active">
@@ -100,12 +143,23 @@
             </div>
         </div>
     </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/+918470884598" target="_blank" id="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+
     <!-- Preloader Start -->
     <!-- Acknowledge Popup -->
     <div id="acknowledge-popup" class="popup-overlay">
         <div class="popup-content">
             <h2>Acknowledgment Required</h2>
-            <p>The Bar Council of India prohibits advertisement or solicitation by advocates. By accessing www.saslawchambers.com, you acknowledge that you are seeking information about Sharma & Sharma Law Chambers LLP voluntarily, without any solicitation or inducement from the firm. The website content is for informational purposes only and not legal advice. Sharma & Sharma Law Chambers LLP is not liable for any actions taken based on the information provided. All website content is the intellectual property of Sharma & Sharma Law Chambers LLP.</p>
+            <p>The Bar Council of India prohibits advertisement or solicitation by advocates. By accessing
+                www.saslawchambers.com, you acknowledge that you are seeking information about Sharma & Sharma Law
+                Chambers LLP voluntarily, without any solicitation or inducement from the firm. The website content is
+                for informational purposes only and not legal advice. Sharma & Sharma Law Chambers LLP is not liable for
+                any actions taken based on the information provided. All website content is the intellectual property of
+                Sharma & Sharma Law Chambers LLP.</p>
             <button id="acknowledge-btn" class="btn btn-primary">Acknowledge</button>
         </div>
     </div>
@@ -128,19 +182,27 @@
                                 <ul id="navigation">
                                     <li class="@yield('website-active-home')"><a href="{{ route('site.dashboard') }}">Home</a>
                                     </li>
-                                    <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About Us</a></li>
+                                    <li class="@yield('website-active-about')"><a href="{{ route('site.about') }}">About Us</a>
+                                    </li>
                                     <li class="@yield('website-active-services')"><a href="{{ route('site.services') }}">Area of
                                             Practice</a></li>
-                                    <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact Us</a>
+                                    <li class="@yield('website-active-contact')"><a href="{{ route('site.contact') }}">Contact
+                                            Us</a>
                                     </li>
                                     <li><a href="#">Get Involved</a>
                                         <ul class="submenu">
-                                            <li class="@yield('website-active-attorney')"><a href="{{ route('site.attorney') }}">Partners/Associates</a>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Testimonials/Reviews</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Media/Publications</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Our Clients</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Internship</a></li>
-                                            <li class="@yield('website-active-gallery')"><a href="{{ route('site.gallery') }}">Gallery</a></li>
+                                            <li class="@yield('website-active-attorney')"><a
+                                                    href="{{ route('site.attorney') }}">Partners/Associates</a>
+                                            <li class="@yield('website-active-para-legal')"><a
+                                                    href="{{ route('site.dashboard') }}">Testimonials/Reviews</a></li>
+                                            <li class="@yield('website-active-media')"><a href="{{ route('media.index') }}">Media/Publications</a></li>
+                                            <li class="@yield('website-active-case')"><a href="{{ route('case.index') }}">Our Case Studies</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a
+                                                    href="{{ route('site.dashboard') }}">Our Clients</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a
+                                                    href="{{ route('site.dashboard') }}">Internship</a></li>
+                                            <li class="@yield('website-active-gallery')"><a
+                                                    href="{{ route('site.gallery') }}">Gallery</a></li>
                                         </ul>
                                     </li>
                                     <li class="@yield('website-active-blog')"><a href="{{ route('blog.index') }}">Blog</a></li>

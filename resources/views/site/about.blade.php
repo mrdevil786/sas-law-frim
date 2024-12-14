@@ -25,20 +25,12 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5">
                     <div class="section-tittle section-tittle-l mb-70">
-                        <h2>About Us - Best Criminal Advocate in Lucknow</h2>
+                        <h2>About Us - Best Lawfirm For Criminal Cases in  Lucknow</h2>
                     </div>
                     <div class="about-caption mb-100 text-justify">
                         <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>law firm in
-                                Lucknow</strong>, renowned for providing expert legal consultancy, litigation, and
-                            para-legal services. As the best <strong>criminal lawyer in Lucknow</strong>, our skilled high
-                            court lawyers adeptly handle diverse areas including foreign direct investments, corporate law,
-                            and business setups in Uttar Pradesh. Managed by Mr. Mukul Sharma, Mr. Mohit Sharma, and Mr.
-                            Rohit Sharma, our firm is distinguished among the <strong>top law firms in India</strong>. We
-                            serve both domestic and international clients, solidifying our reputation as a top choice for
-                            legal services in Lucknow and beyond. Whether you're looking for a premier <strong>law firm in
-                                Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law
-                            Chambers LLP stands out as a leading option for all your legal needs, especially if you are
-                            searching for the <strong>best advocate for criminal cases</strong>.
+                            Lucknow</strong>, renowned for providing expert legal consultancy, and litigation
+                            services. We are the best <strong>law firm </strong> having <strong>best criminal lawyer in Lucknow </strong>, our skilled <strong>high court lawyers</strong> adeptly handle diverse areas including criminal cases, cooreparet cases, arbetreration matters, foreign direct investments, and business setups in Uttar Pradesh. Managed by Mr. Mukul Sharma, and Mr .Mohit Sharma, our firm is distinguished among the <strong>top law firms in India</strong>. We serve both domestic and international clients, solidifying our reputation as a top choice for <strong>legal services in Lucknow</strong> and beyond. Whether you're looking for a premier <strong>law firm in Lucknow</strong> or a reliable <strong>legal firm in Lucknow</strong>, Sharma & Sharma Law Chambers LLP stands out as a leading option for all your legal needs, especially if you are searching for the <strong>best advocate for criminal cases</strong>.
                         </p>
                         <div class="count-clients">
                             <div class="single-counter text-center">

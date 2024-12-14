@@ -21,6 +21,26 @@ return [
             ],
         ],
     ],
+    'case-studies' => [
+        'items' => [
+            [
+                'label' => 'Case Studies',
+                'icon' => 'fe fe-file-text',
+                'route' => 'admin.cases.index',
+                'active' => 'admin/cases',
+            ],
+        ],
+    ],
+    'media' => [
+        'items' => [
+            [
+                'label' => 'Media & Publications',
+                'icon' => 'fe fe-file-text',
+                'route' => 'admin.medias.index',
+                'active' => 'admin/medias'
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

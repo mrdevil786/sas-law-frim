@@ -85,6 +85,13 @@
                         </div>
                     </div>
                     <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>13/143, Basement, Vikram Vihar</h3>
+                            <p>Lajpat Nagar-4, New Delhi</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
                             <h3>+91 84708-84598</h3>
