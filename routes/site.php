@@ -22,6 +22,8 @@ Route::get('/blog/{slug}', [BlogsController::class, 'single_blog'])->name('site.
 Route::get('/case', [CasesController::class,'index'])->name('case.index');
 Route::post('/case', [CasesController::class,'store'])->name('case.store');
 Route::get('/case/{slug}', [CasesController::class, 'single_case'])->name('site.single-case');
+Route::get('/case/{slug}/download', [CasesController::class, 'downloadPDF'])->name('case.download');
+
 
 Route::get('/media', [MediaController::class,'index'])->name('media.index');
 Route::post('/media', [MediaController::class,'store'])->name('media.store');
