@@ -56,13 +56,12 @@
                     </div>
                 </div>
 
-                @if ($routePrefix == 'site.single-case')
-                    <div class="download-pdf mt-1">
-                        <a href="{{ route('case.download', ['slug' => $data->slug]) }}" class="btn btn-sm bg-danger text-white">
-                            <i class="fas fa-download"></i> Download PDF
-                        </a>
-                    </div>
-                @endif
+                <div class="download-pdf mt-1">
+                    <a href="{{ route('case.download', ['slug' => $data->slug]) }}"
+                        class="btn btn-sm bg-danger text-white">
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
             </div>
         </article>
     </div>
