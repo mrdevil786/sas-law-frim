@@ -18,6 +18,7 @@ Route::get('/gallery',[BasicController::class, 'gallery'])->name('site.gallery')
 Route::get('/blog', [BlogsController::class,'index'])->name('blog.index');
 Route::post('/blog', [BlogsController::class,'store'])->name('blog.store');
 Route::get('/blog/{slug}', [BlogsController::class, 'single_blog'])->name('site.single-blog');
+Route::get('/blog/{slug}/download', [BlogsController::class, 'downloadPDF'])->name('blog.download');
 
 Route::get('/case', [CasesController::class,'index'])->name('case.index');
 Route::post('/case', [CasesController::class,'store'])->name('case.store');

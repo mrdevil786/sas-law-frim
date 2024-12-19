@@ -57,10 +57,18 @@
                 </div>
 
                 <div class="download-pdf mt-1">
-                    <a href="{{ route('case.download', ['slug' => $data->slug]) }}"
-                        class="btn btn-sm bg-danger text-white">
-                        <i class="fas fa-download"></i> Download PDF
-                    </a>
+                    @if($routePrefix == 'site.single-case')
+                        <a href="{{ route('case.download', ['slug' => $data->slug]) }}"
+                            class="btn btn-sm bg-danger text-white">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    @endif
+                    @if($routePrefix == 'site.single-blog')
+                        <a href="{{ route('blog.download', ['slug' => $data->slug]) }}"
+                            class="btn btn-sm bg-danger text-white">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    @endif
                 </div>
             </div>
         </article>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 
 class BlogsController extends Controller
@@ -23,5 +24,15 @@ class BlogsController extends Controller
     {
         $blog = Blog::where('slug', $slug)->firstOrFail();
         return view('site.single-blog', compact('blog'));
+    }
+    public function downloadPDF($slug)
+    {
+        $blog = Blog::where('slug', $slug)->firstOrFail();
+
+        // Load the view and pass the case data to it
+        $pdf = Pdf::loadView('site.pdf.blog-study', compact('blog'));
+
+        // Return the generated PDF as a download
+        return $pdf->download('blog-study-' . $blog->slug . '.pdf');
     }
 }
