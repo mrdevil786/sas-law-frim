@@ -35,7 +35,7 @@
     <!-- Display the case description -->
     <div class="case-details">
         <p><strong>Description:</strong></p>
-        <div>{!! nl2br(e($blog->description)) !!}</div>
+        <div>{{ nl2br(e($blog->description)) }}</div>
     </div>
 </body>
 
