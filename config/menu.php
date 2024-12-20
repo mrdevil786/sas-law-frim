@@ -41,6 +41,16 @@ return [
             ],
         ],
     ],
+    'contact' => [
+        'items' => [
+            [
+                'label' => 'Contact',
+                'icon' => 'fe fe-file-text',
+                'route' => 'admin.medias.index',
+                'active' => 'admin/medias'
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

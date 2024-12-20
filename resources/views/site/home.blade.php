@@ -114,24 +114,31 @@
                             <div class="col-xl-12">
                                 <div class="section-tittle section-tittle-f text-center mb-70">
                                     <h2>Consult with the Best Criminal Lawyer Near You</h2>
-                                </div>
+                                </div>  
                             </div>
                         </div>
-                        <form id="contact-form" action="#" method="POST">
+                        @if(session('sucesss'))
+                            <div class="alert alert-success">
+                                {{session('success')}}
+                            </div>
+                        @endif
+                        <form id="contact-form" action="{{route('contact.store')}}" method="POST" novalidate='novalidate'>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box user-icon mb-30">
-                                        <input type="text" name="name" placeholder="Name" required>
+                                        <input type="text" name="name" placeholder="Name" required data-validation-required-message="Please enter your name" value="{{old('name')}}">
+                                        <p class="help-block text-danger">@error('name') {{ $message }} @enderror</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box email-icon mb-30">
-                                        <input type="text" name="phone" placeholder="Phone" required>
+                                        <input type="text" name="phone" placeholder="Phone" required data-validation-required-message="Please enter your phone number" value="{{old('phone')}}">
+                                        <p class="help-block text-danger">@error('phone') {{ $message }} @enderror</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 mb-30">
                                     <div class="select-itms">
-                                        <select name="practice_area" id="select2">
+                                        <select name="practice_area" id="select" required data-validation-required-message="Please select your category">
                                             <option value="NDPS Act">NDPS Act</option>
                                             <option value="Dowry Death">Dowry Death</option>
                                             <option value="Matrimonial Dispute">Matrimonial Dispute</option>
@@ -149,12 +156,14 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box subject-icon mb-30">
-                                        <input type="email" name="email" placeholder="Email" required>
+                                        <input type="email" name="email" placeholder="Email" required data-validation-required-message="Please enter your email" value="={{old('email')}}">
+                                        <p class="help-block text-danger">@error('email') {{ $message }} @enderror</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-box message-icon mb-30">
-                                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                                        <textarea name="message" id="message" placeholder="Your Message" required data-validation-required-message="Please enter description" value="{{old('message')}}"></textarea>
+                                        <p class="help-block text-danger">@error('message') {{ $message }} @enderror</p>
                                     </div>
                                     <div class="submit-info">
                                         <button class="submit-btn2" type="submit">Submit Now</button>
