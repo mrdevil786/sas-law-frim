@@ -114,7 +114,7 @@
                             <div class="col-xl-12">
                                 <div class="section-tittle section-tittle-f text-center mb-70">
                                     <h2>Consult with the Best Criminal Lawyer Near You</h2>
-                                </div>  
+                                </div>
                             </div>
                         </div>
                         @if(session('sucesss'))
@@ -122,7 +122,7 @@
                                 {{session('success')}}
                             </div>
                         @endif
-                        <form id="contact-form" action="{{route('contact.store')}}" method="POST" novalidate='novalidate'>
+                        <form id="contact-form" action="#" method="POST" novalidate='novalidate'>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box user-icon mb-30">
