@@ -31,18 +31,12 @@
                     </div>
                 </div>
                 <div class="row gallery-item">
-                    @php
-                        $gallerysLimit = 4;
-                    @endphp
-
-                    @foreach ($gallerys->take($gallerysLimit) as $gallery)
-                        <div class="col-md-6">
-                            <a href="{{ $gallery->image }}" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
-                                </div>
-                            </a>
-                        </div>
-                    @endforeach
+                    <div class="col-md-6">
+                        <a href="{{ $gallery->image }}" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
