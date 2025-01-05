@@ -31,12 +31,15 @@
                     </div>
                 </div>
                 <div class="row gallery-item">
-                    <div class="col-md-6">
-                        <a href="{{ $gallery->image }}" class="img-pop-up">
-                            <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
-                            </div>
-                        </a>
-                    </div>
+
+                    @foreach ($gallerys as $gallery)
+                        <div class="col-md-6">
+                            <a href="{{ $gallery->image }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
+                                </div>
+                            </a>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
