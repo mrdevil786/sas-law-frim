@@ -2,7 +2,11 @@
     <div class="col-lg-4 mb-5 mb-lg-0">
         <article class="blog_item">
             <div class="blog_item_img">
-                <img class="card-img blog-card-img rounded-0" src="{{ asset($data->image) }}" alt="">
+                @if ($routePrefix == 'site.single-case')
+                    <img class="card-img blog-card-img rounded-0" src="{{ asset($data->banner) }}" alt="">
+                @else
+                    <img class="card-img blog-card-img rounded-0" src="{{ asset($data->image) }}" alt="">
+                @endif
                 <a href="#" class="blog_item_date">
                     <h3>{{ $data->created_at->format('d') }}</h3>
                     <p>{{ $data->created_at->format('M') }}</p>
@@ -57,14 +61,8 @@
                 </div>
 
                 <div class="download-pdf mt-1">
-                    @if($routePrefix == 'site.single-case')
+                    @if ($routePrefix == 'site.single-case')
                         <a href="{{ route('case.download', ['slug' => $data->slug]) }}"
-                            class="btn btn-sm bg-danger text-white">
-                            <i class="fas fa-download"></i> Download PDF
-                        </a>
-                    @endif
-                    @if($routePrefix == 'site.single-blog')
-                        <a href="{{ route('blog.download', ['slug' => $data->slug]) }}"
                             class="btn btn-sm bg-danger text-white">
                             <i class="fas fa-download"></i> Download PDF
                         </a>

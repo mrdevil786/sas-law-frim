@@ -28,8 +28,10 @@
                         <h2>About Us - Best Criminal Defense Lawyers in Lucknow</h2>
                     </div>
                     <div class="about-caption mb-100 text-justify">
-                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>criminal defense lawfirm</strong> in Lucknow, known for providing expert legal consultancy and litigation
-                            services. We are recognized for having the best <strong>criminal defense attorneys near me</strong> who specialize in a variety of areas, including criminal law, corporate law,
+                        <p>Sharma & Sharma Law Chambers LLP (saslawchambers) is a leading <strong>criminal defense
+                                lawfirm</strong> in Lucknow, known for providing expert legal consultancy and litigation
+                            services. We are recognized for having the best <strong>criminal defense attorneys near
+                                me</strong> who specialize in a variety of areas, including criminal law, corporate law,
                             arbitration, and more. Whether you need a criminal lawyer for a specific case or general legal
                             consultation, we are here to serve you with the highest level of legal expertise.</p>
                         <div class="count-clients">
@@ -74,22 +76,49 @@
                                 </div>
                             </div>
                         </div>
-                        <form id="contact-form" action="#" method="POST">
+                        @if (session('sucesss'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+                        <form id="contact-form" action="{{ route('send.contact') }}" method="POST" novalidate='novalidate'>
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box user-icon mb-30">
-                                        <input type="text" name="name" placeholder="Name" required>
+                                        <input type="text" name="name" placeholder="Name" required
+                                            data-validation-required-message="Please enter your name"
+                                            value="{{ old('name') }}">
+                                        <p class="help-block text-danger">
+                                            @error('name')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box email-icon mb-30">
-                                        <input type="text" name="phone" placeholder="Phone" required>
+                                        <input type="text" name="phone" placeholder="Phone" required
+                                            data-validation-required-message="Please enter your phone number"
+                                            value="{{ old('phone') }}">
+                                        <p class="help-block text-danger">
+                                            @error('phone')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 mb-30">
                                     <div class="select-itms">
-                                        <select name="practice_area" id="select2">
-                                            <option value="NDPS Act">NDPS Act</option>
+                                        <select name="subject" id="select" required
+                                            data-validation-required-message="Please select your category"
+                                            value="{{ old('subject') }}">
+                                            <p class="help-block text-danger">
+                                                @error('subject')
+                                                    {{ $message }}
+                                                @enderror
+                                            </p>
+                                            <option value="NDPS Act">NDPS Act </option>
                                             <option value="Dowry Death">Dowry Death</option>
                                             <option value="Matrimonial Dispute">Matrimonial Dispute</option>
                                             <option value="Arms Act">Arms Act</option>
@@ -106,12 +135,25 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box subject-icon mb-30">
-                                        <input type="email" name="email" placeholder="Email" required>
+                                        <input type="email" name="email" placeholder="Email" required
+                                            data-validation-required-message="Please enter your email"
+                                            value="{{ old('email') }}">
+                                        <p class="help-block text-danger">
+                                            @error('email')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-box message-icon mb-30">
-                                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                                        <textarea name="message" id="message" placeholder="Your Message" required
+                                            data-validation-required-message="Please enter description" value="{{ old('message') }}"></textarea>
+                                        <p class="help-block text-danger">
+                                            @error('message')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
                                     </div>
                                     <div class="submit-info">
                                         <button class="submit-btn2" type="submit">Submit Now</button>
@@ -235,139 +277,6 @@
     </div>
     <!-- Why Choose Us End -->
 
-    <!-- Testimonial Start -->
-    <div class="testimonial-area testimonial-padding"
-        data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section-tittle section-tittle-testi text-center mb-45">
-                        <h2>Our Valued Clients</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-xl-8 col-lg-8 col-md-10">
-                    <!-- Bootstrap Carousel -->
-                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                        <div class="carousel-inner">
-                            <!-- Single Testimonial 1 -->
-                            <div class="carousel-item active">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-1.webp') }}"
-                                                    alt="Vedanta Group of Hospitals Criminal Defense Lawyers in Lucknow"
-                                                    style="width:200px;">
-                                                <span>Vedanta Group of Hospitals</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial 2 -->
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-2.webp') }}"
-                                                    alt="Balaji Group of Education Criminal Defense Attorney Near Me"
-                                                    style="width:200px;">
-                                                <span>Balaji Group of Education</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial 3 -->
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-3.webp') }}"
-                                                    alt="Dhanlabh Properties Criminal Defence Lawyer in Lucknow"
-                                                    style="width:200px;">
-                                                <span>Dhanlabh Properties</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-4.webp') }}"
-                                                    alt="Dollar Heights Crime Lawyer Near Me" style="width:200px;">
-                                                <span>Dollar Heights</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-5.webp') }}"
-                                                    alt="Gold Properties Criminal Defence Lawyer Near Me"
-                                                    style="width:200px;">
-                                                <span>Gold Properties</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-6.webp') }}"
-                                                    alt="Manvadhikar Media Criminal Case Lawyers in Lucknow"
-                                                    style="width:200px;">
-                                                <span>Manvadhikar Media</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-7.webp') }}"
-                                                    alt="Manvadhikar Media Foundation Defence Lawyer Near Me"
-                                                    style="width:200px;">
-                                                <span>Manvadhikar Media Foundation</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Controls (optional) -->
-                        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
     <!-- Team Mates Start -->
     <div class="teams-area section-padding30" style="padding-bottom: 100px;">
         <div class="container">
@@ -378,106 +287,24 @@
                     </div>
                 </div>
             </div>
-            <!-- Bootstrap Carousel -->
-            <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <div class="carousel-inner">
-                    <!-- First Slide -->
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
-                                            alt="Mr. Mohit Sharma - Best Criminal Lawyer Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mohit Sharma</a></h4>
-                                        <span>Best Criminal Advocate in Lucknow</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
-                                            alt="Rakesh Srivastava - Senior Criminal Defense Attorney Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Rakesh Srivastava</a></h4>
-                                        <span>Senior Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma - Best Criminal Defence Lawyer Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                                        <span>Designated Partner</span>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="attorneys-slider">
+                @foreach ($attorneys as $attorney)
+                    <div class="single-teams text-center">
+                        <div class="team-img">
+                            <img src="{{ $attorney->image }}" alt="Best Criminal Lawyer near me">
+                        </div>
+                        <div class="team-caption">
+                            <h4><a href="#">{{ $attorney->name }}</a></h4>
+                            <span>{{ $attorney->designation }}</span>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_4.webp') }}"
-                                            alt="Ramakar Shukla - Senior Criminal Defence Attorney Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Ramakar Shukla</a></h4>
-                                        <span>Senior Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_5.webp') }}"
-                                            alt="Mr. Rohit Sharma - Partner Criminal Defence Lawyers Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Rohit Sharma</a></h4>
-                                        <span>Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
-                                            alt="Mr. Hari Govind Dubey - Advocate High Court Criminal Case Lawyers Near Me">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Hari Govind Dubey</a></h4>
-                                        <span>Advocate High Court</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Carousel Controls -->
-                <a class="carousel-control-prev" href="#attorneysCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#attorneysCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                @endforeach
             </div>
         </div>
     </div>
     <!-- Team Mates End -->
 
-    <!-- Start Align Area -->
+    <!-- Clients Start -->
     <div class="whole-wrap">
         <div class="container box_1170">
             <div class="section-top-border">
@@ -489,25 +316,28 @@
                     </div>
                 </div>
                 <div class="row gallery-item">
-                    @foreach (['pg1', 'pg3', 'pg5', 'pg6', 'pg7', 'pg17'] as $image)
-                        <div class="col-md-{{ in_array($image, ['pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
-                            <a href="{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}" class="img-pop-up">
-                                <div class="single-gallery-image"
-                                    style="background: url('{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}');">
+                    @php
+                        $gallerysLimit = 4;
+                    @endphp
+
+                    @foreach ($gallerys->take($gallerysLimit) as $gallery)
+                        <div class="col-md-6">
+                            <a href="{{ $gallery->image }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
                                 </div>
                             </a>
                         </div>
                     @endforeach
-                </div>
-                <div class="row">
-                    <div class="col text-center mt-4">
-                        <a href="{{ route('site.gallery') }}" class="btn btn-primary btn-lg">See More</a>
+                    <div class="col-md-12">
+                        <div class="col text-center mt-4">
+                            <a href="{{ route('site.gallery') }}" class="btn btn-primary btn-lg">See More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Align Area -->
+    <!-- Clients End -->
 
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">

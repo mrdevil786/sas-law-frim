@@ -11,44 +11,69 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>CONTACT US</h2>
+                            {{-- <h2>CONTACT US</h2> --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- slider Area End-->
-    <section class="contact-section">
+    <!-- Contact Form Start -->
+    <div class="contact-form bg-height pb-160" data-background="{{ asset('frontend/assets/img/about/contact_bg.webp') }}">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
-                </div>
-                <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-                        novalidate="novalidate">
+                <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                    <div class="form-wrapper">
                         <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control valid" name="name" id="name" type="text"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
-                                        placeholder="Enter your name">
+                            <div class="col-xl-12">
+                                <div class="section-tittle section-tittle-f text-center mb-70">
+                                    <h2>Consult with the Best Criminal Lawyer Near You</h2>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control valid" name="email" id="email" type="email"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
-                                        placeholder="Email">
-                                </div>
+                        </div>
+                        @if (session('sucesss'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
                             </div>
-                            <div class="col-12" style="margin-bottom: 30px;">
-                                <div class="form-group">
-                                    <!-- Updated multiple select input for subject -->
-                                    <select class="form-control" name="subject[]" id="subject" multiple>
-                                        <option value="" disabled selected>Choose your subject(s)</option>
-                                        <option value="NDPS Act">NDPS Act</option>
+                        @endif
+                        <form id="contact-form" action="{{ route('send.contact') }}" method="POST" novalidate='novalidate'>
+                            @csrf
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-box user-icon mb-30">
+                                        <input type="text" name="name" placeholder="Name" required
+                                            data-validation-required-message="Please enter your name"
+                                            value="{{ old('name') }}">
+                                        <p class="help-block text-danger">
+                                            @error('name')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-box email-icon mb-30">
+                                        <input type="text" name="phone" placeholder="Phone" required
+                                            data-validation-required-message="Please enter your phone number"
+                                            value="{{ old('phone') }}">
+                                        <p class="help-block text-danger">
+                                            @error('phone')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-30">
+                                    <div class="select-itms">
+                                        <select name="subject" id="select" required
+                                            data-validation-required-message="Please select your category"
+                                            value="{{ old('subject') }}">
+                                            <p class="help-block text-danger">
+                                                @error('subject')
+                                                    {{ $message }}
+                                                @enderror
+                                            </p>
+                                            <option value="NDPS Act">NDPS Act </option>
                                             <option value="Dowry Death">Dowry Death</option>
                                             <option value="Matrimonial Dispute">Matrimonial Dispute</option>
                                             <option value="Arms Act">Arms Act</option>
@@ -59,63 +84,44 @@
                                             <option value="Explosives Act">Explosives Act</option>
                                             <option value="Cyber Crime">Cyber Crime</option>
                                             <option value="Corporate Matters">Corporate Matters</option>
-                                            <option value="Bhartiya Nyaya Sanhita">Bhartiya Nyaya Sanhita</option>
                                             <option value="Others">Others</option>
-                                    </select>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-box subject-icon mb-30">
+                                        <input type="email" name="email" placeholder="Email" required
+                                            data-validation-required-message="Please enter your email"
+                                            value="{{ old('email') }}">
+                                        <p class="help-block text-danger">
+                                            @error('email')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-box message-icon mb-30">
+                                        <textarea name="message" id="message" placeholder="Your Message" required
+                                            data-validation-required-message="Please enter description" value="{{ old('message') }}"></textarea>
+                                        <p class="help-block text-danger">
+                                            @error('message')
+                                                {{ $message }}
+                                            @enderror
+                                        </p>
+                                    </div>
+                                    <div class="submit-info">
+                                        <button class="submit-btn2" type="submit">Submit Now</button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Enter Message"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-3 offset-lg-1">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3>C-501, New High Court, Gomtinagar</h3>
-                            <p>Lucknow</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3>13/143, Basement, Vikram Vihar</h3>
-                            <p>Lajpat Nagar-4, New Delhi</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                        <div class="media-body">
-                            <h3>+91 84708-84598</h3>
-                            <p>Mon to Fri 9am to 6pm</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3>info@saslawchambers.com</h3>
-                            <p>Send us your query anytime!</p>
-                        </div>
+                        </form>
                     </div>
                 </div>
-            </div>
-            <div class="d-sm-block mb-5 pb-4">
-                <h2 class="contact-title">Our Location</h2>
-                <iframe style="border: 2px solid #da0000;"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0165407746754!2d81.00907147489357!3d26.871215561873612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3c842645d0b%3A0x20f3de94aaa3b659!2sSharma%20%26%20Sharma%20Law%20Chambers%20LLP!5e0!3m2!1sen!2sin!4v1723295911419!5m2!1sen!2sin"
-                    width="100%" height="480" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Contact Form End -->
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">

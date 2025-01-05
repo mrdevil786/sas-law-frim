@@ -1,6 +1,6 @@
 @extends('admin.layout.main')
 
-@section('admin-page-title', 'Case Studies')
+@section('admin-page-title', 'Blogs')
 
 @section('admin-main-section')
 
@@ -8,7 +8,10 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Case Studies</h1>
-            <a href="{{ route('admin.cases.create') }}"><button class="btn btn-primary" type="button">Add Case Studies</button></a>
+            @if (auth()->user()->user_role == 1)
+                <button class="btn btn-primary off-canvas" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add Case Study</button>
+            @endif
         </div>
     </div>
     <!-- PAGE-HEADER END -->
@@ -18,7 +21,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">All Users</h3>
+                    <h3 class="card-title">All Case Studies</h3>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -26,15 +29,13 @@
                             <thead>
                                 <tr>
                                     <th class="wd-15p border-bottom-0">#</th>
-                                    <th class="wd-15p border-bottom-0">Image</th>
+                                    <th class="wd-15p border-bottom-0">Banner</th>
                                     <th class="wd-15p border-bottom-0">Slug</th>
-                                    <th class="wd-20p border-bottom-0">Title</th>
+                                    <th class="wd-15p border-bottom-0">Name</th>
                                     <th class="wd-15p border-bottom-0">Description</th>
+                                    <th class="wd-15p border-bottom-0">PDF</th>
                                     <th class="wd-25p border-bottom-0">Created At</th>
                                     <th class="wd-25p border-bottom-0">Updated At</th>
-                                    @if (auth()->user()->user_role == 1)
-                                        <th class="wd-25p border-bottom-0">Status</th>
-                                    @endif
                                     <th class="wd-25p border-bottom-0">Action</th>
                                 </tr>
                             </thead>
@@ -42,29 +43,22 @@
                                 @foreach ($cases as $case)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td class="align-middle text-center"><img alt="image"
-                                            class="avatar avatar-sm br-7" src="{{ asset($case->image) }}"></td>
+                                        <td class="align-middle text-center">
+                                            <img alt="image" class="avatar avatar-sm br-7"
+                                                src="{{ asset($case->banner) }}">
+                                        </td>
                                         <td>{{ \Illuminate\Support\Str::limit($case->slug, 20, '...') }}</td>
                                         <td>{{ \Illuminate\Support\Str::limit($case->title, 20, '...') }}</td>
                                         <td>
                                             {{ \Illuminate\Support\Str::limit(strip_tags($case->description), 20, '...') }}
                                         </td>
+                                        <td class="text-center"><x-buttons.action-pill-button iconClass="fa fa-eye"
+                                            iconColor="secondary" href="{{ asset($case->image) }}" /></td>
                                         <td>{{ $case->created_at }}</td>
                                         <td>{{ $case->updated_at }}</td>
-                                        @if (auth()->user()->user_role == 1)
-                                            <td class="text-center">
-                                                <label class="custom-switch form-switch mb-0">
-                                                    <input type="checkbox" name="custom-switch-radio"
-                                                        class="custom-switch-input" data-user-id="{{ $case->id }}"
-                                                        {{ $case->status == 'active' ? 'checked' : '' }}>
-                                                    <span class="custom-switch-indicator"></span>
-                                                </label>
-                                            </td>
-                                        @endif
                                         <td class="text-center">
                                             <x-buttons.action-pill-button iconClass="fa fa-eye" iconColor="secondary"
                                                 href="{{ route('admin.cases.view', $case->id) }}" />
-
                                             @if (auth()->user()->user_role != 3)
                                                 <x-buttons.action-pill-button
                                                     href="{{ route('admin.cases.edit', $case->id) }}"
@@ -88,6 +82,26 @@
     </div>
     <!-- End Row -->
 
+    <x-modal.right-offcanvas title="Add New Case Study" action="{{ route('admin.cases.store') }}" method="POST">
+        <div class="col-lg-12 mb-3">
+            <label class="form-label mt-0" for="banner">Banner</label>
+            <input type="file" class="dropify" name="banner" data-bs-height="180" />
+            @error('banner')
+                <div class="text-danger">{{ $message }}</div>
+            @enderror
+        </div>
+
+        <x-fields.input-field label="Title" name="title" />
+        <x-fields.input-field label="Description" name="description" />
+        <div class="col-lg-12 mb-3">
+            <label class="form-label mt-0" for="image">PDF</label>
+            <input type="file" class="dropify" name="image" data-bs-height="180" />
+            @error('image')
+                <div class="text-danger">{{ $message }}</div>
+            @enderror
+        </div>
+    </x-modal.right-offcanvas>
+
 @endsection
 
 @section('custom-script')
@@ -105,6 +119,10 @@
     <script src="{{ asset('../assets/plugins/datatable/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('../assets/plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
     <script src="{{ asset('../assets/js/table-data.js') }}"></script>
+
+    <!-- FILE UPLOADES JS -->
+    <script src="{{ asset('../assets/plugins/fileuploads/js/fileupload.js') }}"></script>
+    <script src="{{ asset('../assets/plugins/fileuploads/js/file-upload.js') }}"></script>
 
     <!-- INTERNAL Notifications js -->
     <script src="../assets/plugins/notify/js/jquery.growl.js"></script>

@@ -34,11 +34,21 @@ class MediaController extends Controller
     {
         $request->validate([
             'image'=>'nullable|mimes:png,jpg,jpeg,webp,svg,gif',
-            'title' => 'required|string|max:255|unique:blogs,title',
-            'description' => 'required',
+            'title' => 'required|string|max:255|unique:media,title',
+            'description' => 'required|string|max:65535',
         ]);
 
+        // Generate a slug from the title
+        $slug = Str::slug($request->title);
+
+        // Check if the slug already exists
+        $existingSlug = Media::where('slug', $slug)->first();
+        if ($existingSlug) {
+            $slug = $slug . '-' . time(); // Add a unique suffix if slug already exists
+        }
+
         $media = new Media();
+        $media->slug = $slug;
         $media->title = $request->title;
         $media->description = $request->description;
 

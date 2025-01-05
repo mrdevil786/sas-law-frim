@@ -1,5 +1,5 @@
 @extends('site.layout.main')
-@section('website-page-title', 'Services in Lucknow | Saslawchambers')
+@section('website-page-title', 'Gallery | SAS Law Chambers LLP')
 @section('website-active-gallery', 'active')
 @section('website-main-section')
     <!-- Slider Area Start -->
@@ -31,12 +31,14 @@
                     </div>
                 </div>
                 <div class="row gallery-item">
-                    @foreach (['pg1', 'pg2', 'pg3', 'pg10', 'pg5', 'pg6', 'pg7', 'pg17'] as $image)
-                        <div
-                            class="col-md-{{ in_array($image, ['pg4', 'pg5', 'pg10', 'pg11', 'pg15', 'pg16']) ? '6' : '4' }}">
-                            <a href="{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}" class="img-pop-up">
-                                <div class="single-gallery-image"
-                                    style="background: url('{{ asset('frontend/assets/img/elements/' . $image . '.webp') }}');">
+                    @php
+                        $gallerysLimit = 4;
+                    @endphp
+
+                    @foreach ($gallerys->take($gallerysLimit) as $gallery)
+                        <div class="col-md-6">
+                            <a href="{{ $gallery->image }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url('{{ $gallery->image }}');">
                                 </div>
                             </a>
                         </div>

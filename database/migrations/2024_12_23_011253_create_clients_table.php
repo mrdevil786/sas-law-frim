@@ -11,13 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('case_studies', function (Blueprint $table) {
+        Schema::create('clients', function (Blueprint $table) {
             $table->id();
-            $table->string('slug');
-            $table->string('image')->nullable();
-            $table->string('title')->unique();
-            $table->text('description');
-            $table->foreignId('author_id')->constrained('users');
+            $table->string('image');
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('case_studies');
+        Schema::dropIfExists('clients');
     }
 };

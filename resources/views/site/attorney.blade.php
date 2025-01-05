@@ -29,105 +29,23 @@
                     </div>
                 </div>
             </div>
-            <!-- Bootstrap Carousel -->
-            <div id="attorneysCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <div class="carousel-inner">
-                    <!-- First Slide -->
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_2.webp') }}"
-                                            alt="Mr. Mohit Sharma - Best Criminal Advocate in Lucknow">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mohit Sharma</a></h4>
-                                        <span>Best Criminal Advocate in Lucknow</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_3.webp') }}"
-                                            alt="Rakesh Srivastava - Senior Partner">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Rakesh Srivastava</a></h4>
-                                        <span>Senior Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_1.webp') }}"
-                                            alt="Mr. Mukul Sharma - Designated Partner">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Mukul Sharma</a></h4>
-                                        <span>Designated Partner</span>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="attorneys-slider">
+                @foreach ($attorneys as $attorney)
+                    <div class="single-teams text-center">
+                        <div class="team-img">
+                            <img src="{{ $attorney->image }}" alt="Best Criminal Lawyer near me">
+                        </div>
+                        <div class="team-caption">
+                            <h4><a href="#">{{ $attorney->name }}</a></h4>
+                            <span>{{ $attorney->designation }}</span>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_4.webp') }}"
-                                            alt="Ramakar Shukla - Senior Partner">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Ramakar Shukla</a></h4>
-                                        <span>Senior Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_5.webp') }}"
-                                            alt="Mr. Rohit Sharma - Partner">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Rohit Sharma</a></h4>
-                                        <span>Partner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4">
-                                <div class="single-teams text-center">
-                                    <div class="team-img">
-                                        <img src="{{ asset('frontend/assets/img/team/team_6.webp') }}"
-                                            alt="Mr. Hari Govind Dubey - Advocate High Court">
-                                    </div>
-                                    <div class="team-caption">
-                                        <h4><a href="#">Mr. Hari Govind Dubey</a></h4>
-                                        <span>Advocate High Court</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Carousel Controls -->
-                <a class="carousel-control-prev" href="#attorneysCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#attorneysCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                @endforeach
             </div>
         </div>
     </div>
     <!-- Team Mates End -->
-    <!-- Testimonial Start -->
+    <!-- Clients Start -->
     <div class="testimonial-area testimonial-padding"
         data-background="{{ asset('frontend/assets/img/testmonial/testi_bg.webp') }}">
         <div class="container">
@@ -144,99 +62,21 @@
                     <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                         <div class="carousel-inner">
                             <!-- Single Testimonial 1 -->
-                            <div class="carousel-item active">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-1.webp') }}"
-                                                    alt="Vedanta Group of Hospitals" style="width:200px;">
-                                                <span>Vedanta Group of Hospitals</span>
+                            @foreach ($clients as $index => $client)
+                                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                                    <div class="single-testimonial text-center">
+                                        <div class="testimonial-caption">
+                                            <div class="testimonial-founder">
+                                                <div class="founder-img">
+                                                    <img src="{{ $client->image }}"
+                                                        alt="Criminal Defense Lawyers in Lucknow" style="width:200px;">
+                                                    <span>{{ $client->name }}</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Single Testimonial 2 -->
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-2.webp') }}"
-                                                    alt="Balaji Group of Education" style="width:200px;">
-                                                <span>Balaji Group of Education</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial 3 -->
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-3.webp') }}"
-                                                    alt="Dhanlabh Properties" style="width:200px;">
-                                                <span>Dhanlabh Properties</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-4.webp') }}"
-                                                    alt="Dollar Heights" style="width:200px;">
-                                                <span>Dollar Heights</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-5.webp') }}"
-                                                    alt="Gold Properties" style="width:200px;">
-                                                <span>Gold Properties</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-6.webp') }}"
-                                                    alt="Manvadhikar Media" style="width:200px;">
-                                                <span>Manvadhikar Media</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="single-testimonial text-center">
-                                    <div class="testimonial-caption">
-                                        <div class="testimonial-founder">
-                                            <div class="founder-img">
-                                                <img src="{{ asset('frontend/assets/img/testmonial/client-7.webp') }}"
-                                                    alt="Manvadhikar Media Foundation" style="width:200px;">
-                                                <span>Manvadhikar Media Foundation</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                         <!-- Controls (optional) -->
                         <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
@@ -252,7 +92,7 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    <!-- Clients End -->
     <!-- Want To Work Start -->
     <div class="wantToWork-area w-padding">
         <div class="container">

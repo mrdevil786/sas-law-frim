@@ -3806,8 +3806,13 @@ hr {
 
 .teams-area .single-teams .team-img img {
     width: 100%;
+    height: 330px;
+    object-fit: cover;
 }
-
+.attorneys-slider{
+    /* overflow-x: hidden; */
+    width: 96%;
+}
 .teams-area .single-teams .team-caption {
     padding: 20px 0;
 }

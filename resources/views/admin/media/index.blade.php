@@ -27,13 +27,11 @@
                                 <tr>
                                     <th class="wd-15p border-bottom-0">#</th>
                                     <th class="wd-15p border-bottom-0">Image</th>
+                                    <th class="wd-15p border-bottom-0">Slug</th>
                                     <th class="wd-20p border-bottom-0">Title</th>
                                     <th class="wd-15p border-bottom-0">Description</th>
                                     <th class="wd-25p border-bottom-0">Created At</th>
                                     <th class="wd-25p border-bottom-0">Updated At</th>
-                                    @if (auth()->user()->user_role == 1)
-                                        <th class="wd-25p border-bottom-0">Status</th>
-                                    @endif
                                     <th class="wd-25p border-bottom-0">Action</th>
                                 </tr>
                             </thead>
@@ -43,22 +41,13 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td class="align-middle text-center"><img alt="image"
                                             class="avatar avatar-sm br-7" src="{{ asset($media->image) }}"></td>
-                                        <td>{{  \Illuminate\Support\Str::limit($media->ttile, 20, '...') }}</td>
+                                        <td>{{  \Illuminate\Support\Str::limit($media->slug, 20, '...') }}</td>
+                                        <td>{{  \Illuminate\Support\Str::limit($media->title, 20, '...') }}</td>
                                         <td>
                                             {{  \Illuminate\Support\Str::limit($media->description, 20, '...') }}
                                         </td>
                                         <td>{{ $media->created_at }}</td>
                                         <td>{{ $media->updated_at }}</td>
-                                        @if (auth()->user()->user_role == 1)
-                                            <td class="text-center">
-                                                <label class="custom-switch form-switch mb-0">
-                                                    <input type="checkbox" name="custom-switch-radio"
-                                                        class="custom-switch-input" data-user-id="{{ $media->id }}"
-                                                        {{ $media->status == 'active' ? 'checked' : '' }}>
-                                                    <span class="custom-switch-indicator"></span>
-                                                </label>
-                                            </td>
-                                        @endif
                                         <td class="text-center">
                                             <x-buttons.action-pill-button iconClass="fa fa-eye" iconColor="secondary"
                                                 href="{{ route('admin.medias.view', $media->id) }}" />

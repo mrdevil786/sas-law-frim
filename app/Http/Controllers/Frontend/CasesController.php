@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\CaseStudies;
+use App\Models\CaseStudy;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 
@@ -14,26 +15,29 @@ class CasesController extends Controller
         $perPage = 6;
         $routePrefix = 'site.single-case';
         if ($request->ajax()) {
-            $allData = CaseStudies::latest()->with('author')->paginate($perPage);
+            $allData = CaseStudy::latest()->with('author')->paginate($perPage);
             return view('site.includes.global-card', ['allData' => $allData, 'routePrefix' => $routePrefix])->render();
         }
-        $allData = CaseStudies::latest()->with('author')->paginate($perPage);
-        return view('site.case', compact('allData','routePrefix'));
+        $allData = CaseStudy::latest()->with('author')->paginate($perPage);
+        return view('site.case', compact('allData', 'routePrefix'));
     }
     public function single_case($slug)
     {
-        $case = CaseStudies::where('slug', $slug)->firstOrFail();
+        $case = CaseStudy::where('slug', $slug)->firstOrFail();
         return view('site.single-card', compact('case'));
     }
 
     public function downloadPDF($slug)
     {
-        $case = CaseStudies::where('slug', $slug)->firstOrFail();
+        // Retrieve the CaseStudy by slug
+        $case = CaseStudy::where('slug', $slug)->firstOrFail();
 
-        // Load the view and pass the case data to it
-        $pdf = Pdf::loadView('site.pdf.case-study', compact('case'));
+        // Check if the PDF file exists
+        if (!file_exists($case->image)) {
+            abort(404, 'PDF file not found.');
+        }
 
-        // Return the generated PDF as a download
-        return $pdf->download('case-study-' . $case->slug . '.pdf');
+        // Return the PDF file as a download
+        return response()->download($case->image, 'case-study-' . $case->slug . '.pdf');
     }
 }

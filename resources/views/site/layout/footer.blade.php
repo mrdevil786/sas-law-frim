@@ -160,6 +160,9 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="{{ asset('frontend/assets/js/plugins.js') }}"></script>
 <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var popup = document.getElementById('acknowledge-popup');
@@ -175,6 +178,34 @@
         acknowledgeBtn.addEventListener('click', function() {
             popup.style.display = 'none';
             localStorage.setItem('acknowledged', 'true');
+        });
+    });
+</script>
+<!-- Initialize Slick Slider -->
+<script>
+    $(document).ready(function(){
+        $('.attorneys-slider').slick({
+            infinite: true,        // Infinite scroll
+            slidesToShow: 3,       // How many slides visible at once
+            slidesToScroll: 1,     // Number of slides to scroll at a time
+            autoplay: true,        // Enable autoplay
+            autoplaySpeed: 3000,   // Speed of autoplay (3 seconds)
+            arrows: true,          // Show previous and next arrows
+            dots: true,            // Show pagination dots
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,  // Show 2 slides on medium screens
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,  // Show 1 slide on small screens
+                    }
+                }
+            ]
         });
     });
 </script>

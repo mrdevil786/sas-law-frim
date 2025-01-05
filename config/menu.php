@@ -25,7 +25,7 @@ return [
         'items' => [
             [
                 'label' => 'Case Studies',
-                'icon' => 'fe fe-file-text',
+                'icon' => 'fe fe-book-open',
                 'route' => 'admin.cases.index',
                 'active' => 'admin/cases',
             ],
@@ -35,19 +35,59 @@ return [
         'items' => [
             [
                 'label' => 'Media & Publications',
-                'icon' => 'fe fe-file-text',
+                'icon' => 'fe fe-camera',
                 'route' => 'admin.medias.index',
                 'active' => 'admin/medias'
             ],
         ],
     ],
-    'contact' => [
+    'attoneys' => [
         'items' => [
             [
-                'label' => 'Contact',
-                'icon' => 'fe fe-file-text',
-                'route' => 'admin.medias.index',
-                'active' => 'admin/medias'
+                'label' => 'Attorneys',
+                'icon' => 'fe fe-briefcase',
+                'route' => 'admin.attorneys.index',
+                'active' => 'admin/attorneys',
+            ],
+        ],
+    ],
+    'clients' => [
+        'items' => [
+            [
+                'label' => 'Clients',
+                'icon' => 'fe fe-users',
+                'route' => 'admin.clients.index',
+                'active' => 'admin/clients',
+            ],
+        ],
+    ],
+    'gallerys' => [
+        'items' => [
+            [
+                'label' => 'Gallery',
+                'icon' => 'fe fe-image',
+                'route' => 'admin.gallerys.index',
+                'active' => 'admin/gallerys',
+            ],
+        ],
+    ],
+    'reviews' => [
+        'items' => [
+            [
+                'label' => 'Reviews',
+                'icon' => 'fe fe-user',
+                'route' => 'admin.reviews.index',
+                'active' => 'admin/reviews',
+            ],
+        ],
+    ],
+    'internship' => [
+        'items' => [
+            [
+                'label' => 'Internship',
+                'icon' => 'fe fe-user',
+                'route' => 'admin.internships.index',
+                'active' => 'admin/internships',
             ],
         ],
     ],

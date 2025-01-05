@@ -55,6 +55,9 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 
     <style>
         /* Popup overlay */
@@ -186,11 +189,11 @@
                                     <li><a href="#">Get Involved</a>
                                         <ul class="submenu">
                                             <li class="@yield('website-active-attorney')"><a href="{{ route('site.attorney') }}">Partners/Associates</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Testimonials/Reviews</a></li>
+                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.review') }}">Testimonials/Reviews</a></li>
                                             <li class="@yield('website-active-media')"><a href="{{ route('media.index') }}">Media/Publications</a></li>
                                             <li class="@yield('website-active-case')"><a href="{{ route('case.index') }}">Our Case Studies</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Our Clients</a></li>
-                                            <li class="@yield('website-active-para-legal')"><a href="{{ route('site.dashboard') }}">Internship</a></li>
+                                            <li class="@yield('website-active-client')"><a href="{{ route('site.client') }}">Our Clients</a></li>
+                                            <li class="@yield('website-active-internship')"><a href="/internship">Internship</a></li>
                                             <li class="@yield('website-active-gallery')"><a href="{{ route('site.gallery') }}">Gallery</a></li>
                                         </ul>
                                     </li>

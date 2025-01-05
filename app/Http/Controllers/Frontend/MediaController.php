@@ -13,13 +13,13 @@ class MediaController extends Controller
     public function index(Request $request)
     {
         $perPage = 6;
-        // $routePrefix = 'site.single-media';
+        $routePrefix = 'site.single-media';
         if ($request->ajax()) {
             $allData = Media::latest()->with('author')->paginate($perPage);
-            return view('site.includes.global-card', ['allData' => $allData])->render();
+            return view('site.includes.global-card', ['allData' => $allData, 'routePrefix' => $routePrefix])->render();
         }
         $allData = Media::latest()->with('author')->paginate($perPage);
-        return view('site.media', compact('allData'));
+        return view('site.media', compact('allData','routePrefix'));
     }
     public function single_media($slug)
     {
