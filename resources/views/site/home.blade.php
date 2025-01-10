@@ -7,7 +7,7 @@
         <div class="slider-active">
             <!-- Single Slider -->
             <div class="single-slider slider-height2 d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 100vh;">
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 90vh;">
                 <div class="container">
                     {{-- <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
@@ -34,7 +34,7 @@
             </div>
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 100vh;">
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 90vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">

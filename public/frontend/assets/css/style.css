@@ -2074,8 +2074,8 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .about-padding {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -3476,7 +3476,7 @@ hr {
 
 @media (max-width: 767px) {
     .contact-form .form-wrapper {
-        padding: 45px 26px 41px 29px;
+        padding: 125px 26px 41px 29px;
     }
 }
 
