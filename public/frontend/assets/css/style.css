@@ -2623,7 +2623,7 @@ hr {
     font-family: "Playfair Display", serif;
     line-height: 1.2;
     text-transform: capitalize;
-    margin-bottom: 450px;
+    margin-bottom: 350px;
     display: block;
 }
 
@@ -4359,7 +4359,6 @@ hr {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
-
 .l_blog_item .l_blog_text .date {
     margin-top: 24px;
     margin-bottom: 15px;

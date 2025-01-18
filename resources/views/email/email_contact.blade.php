@@ -57,7 +57,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2>You've Got Mail! Here's Your Contact Form Submission</h2>
+            <h2>You've Got a Mail! Here's are the details</h2>
         </div>
         <div class="card">
             <div class="mb-3">

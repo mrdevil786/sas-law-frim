@@ -6,8 +6,8 @@
     <div class="slider-area">
         <div class="slider-active">
             <!-- Single Slider -->
-            <div class="single-slider slider-height2 d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 90vh;">
+            <div class="single-slider slider-height2 bannerimage d-flex align-items-center"
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" >
                 <div class="container">
                     {{-- <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
@@ -33,8 +33,8 @@
                 </div>
             </div>
             <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center"
-                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}" style="height: 90vh;">
+            <div class="single-slider slider-height bannerimage d-flex align-items-center"
+                data-background="{{ asset('frontend/assets/img/hero/h1_hero.webp') }}">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-9">
