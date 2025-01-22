@@ -20,7 +20,7 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        Mail::to('khanmuba3@gmail.com')->send(new ContactFormMail($validatedData));
+        Mail::to('mohit7299bhatt@gmail.com')->send(new ContactFormMail($validatedData));
 
         // return view('site.contact')->with('success','Message Sent Successfully!');
         return redirect()->route('site.dashboard')->with('success', 'Message Sent Successfully!');

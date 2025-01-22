@@ -41,7 +41,7 @@
         content="Sharma & Sharma Law Chambers LLP is the best criminal law firm in Lucknow, specializing in criminal defense, crime and criminal law, and providing expert consultation for criminal defense attorneys. Contact our criminal law lawyers near you for reliable legal services.">
     <meta name="author" content="Adv. Mukul Sharma" />
     <meta name="keywords"
-        content="criminal defense attorney near me, criminal law lawyers near me, crime and criminal law, criminal defense lawyers near me, defence lawyer, criminal defence attorney near me, criminal case lawyers near me, crime lawyer near me, criminal defence lawyer near me">
+        content="criminal defense attorney near me, criminal law lawyers near me, crime and criminal law, criminal defense lawyers near me, defence lawyer, criminal defence attorney near me, criminal case lawyers near me, crime lawyer near me, criminal defence lawyer near me, best criminal lawyers in lucknow high court, best corperate lawyer in lucknow, best criminal lawyers in lucknow, best corperate lawyer in lucknow high court, best corperate lawyer in lucknow high court high court lawyers">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/favicon.png') }}">
 
@@ -190,7 +190,7 @@
                     <div class="col-xl-2 col-lg-1 col-md-1">
                         <div class="logo">
                             <a href="{{ route('site.dashboard') }}"><img
-                                    src="{{ asset('frontend/assets/img/logo/logo.svg') }}"
+                                    src="{{ asset('frontend/assets/img/logo/logo.svg') }} "
                                     alt="Best Criminal Defense Lawyer in Lucknow"></a>
                         </div>
                     </div>
